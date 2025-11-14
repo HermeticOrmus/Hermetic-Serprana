@@ -11,6 +11,46 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // Primary sage/green accent - rgb(97, 139, 99)
+        sage: {
+          50: '#f4f7f4',
+          100: '#e8f0e9',
+          200: '#d1e1d2',
+          300: '#b0cdb2',
+          400: '#82af85',
+          500: '#618b63', // Main accent color
+          600: '#4f7251',
+          700: '#405d42',
+          800: '#364d37',
+          900: '#2d3f2e',
+        },
+        // Warm terracotta/clay tones
+        clay: {
+          50: '#faf7f4',
+          100: '#f4ede6',
+          200: '#e8d9cc',
+          300: '#d7bea8',
+          400: '#c59f7e',
+          500: '#b5825f',
+          600: '#a36d4d',
+          700: '#885941',
+          800: '#6f4a38',
+          900: '#5c3d2f',
+        },
+        // Soft cream/neutral tones
+        cream: {
+          50: '#fdfcfb',
+          100: '#faf8f5',
+          200: '#f5f1eb',
+          300: '#ebe5dc',
+          400: '#ddd3c5',
+          500: '#c9bba9',
+          600: '#a79683',
+          700: '#8a7a6a',
+          800: '#726459',
+          900: '#5f544b',
+        },
+        // Accent variants for specific uses
         earth: {
           50: '#faf7f4',
           100: '#f5efe8',
@@ -22,18 +62,6 @@ const config: Config = {
           700: '#8a6850',
           800: '#715746',
           900: '#5d493b',
-        },
-        sage: {
-          50: '#f6f7f6',
-          100: '#e3e7e3',
-          200: '#c7cec7',
-          300: '#a3ada3',
-          400: '#7f8e7f',
-          500: '#647364',
-          600: '#4f5c4f',
-          700: '#414a41',
-          800: '#363d36',
-          900: '#2e332e',
         },
       },
       fontFamily: {
