@@ -8,11 +8,11 @@ export const metadata = {
 
 export default function MeetKate() {
   return (
-    <div className="bg-white">
+    <div className="bg-sage-900">
       {/* Hero Section */}
-      <section className="py-20 px-4 bg-gradient-to-b from-sage-50 to-white">
+      <section className="py-20 px-4 bg-gradient-to-b from-sage-800 to-sage-900">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-display mb-6 text-earth-900 italic">
+          <h1 className="text-5xl md:text-6xl font-display mb-6 text-sage-100 italic">
             I look forward to knowing you
           </h1>
         </div>
@@ -24,17 +24,17 @@ export default function MeetKate() {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* Image */}
             <div className="relative">
-              <div className="aspect-square bg-sage-100 rounded-lg flex items-center justify-center text-sage-400">
+              <div className="aspect-square bg-sage-700 rounded-lg flex items-center justify-center text-sage-300">
                 [Kate's Photo]
               </div>
-              <p className="text-center mt-4 font-display text-earth-700">Owner</p>
+              <p className="text-center mt-4 font-display text-sage-200">Owner</p>
             </div>
 
             {/* Bio */}
             <div className="space-y-6">
-              <h2 className="text-4xl font-display text-earth-900">Kate Edelstein</h2>
+              <h2 className="text-4xl font-display text-sage-100">Kate Edelstein</h2>
 
-              <div className="space-y-4 text-earth-800 leading-relaxed">
+              <div className="space-y-4 text-sage-200 leading-relaxed">
                 <p>
                   Welcome to my world of <em className="italic">holistic wellness and vibrant energy</em>! I embarked on my
                   journey in the Holistic Wellness space back in 2015, and since then, my path
@@ -80,9 +80,9 @@ export default function MeetKate() {
       </section>
 
       {/* Quote Section */}
-      <section className="py-16 px-4 bg-sage-50">
+      <section className="py-16 px-4 bg-sage-800">
         <div className="max-w-4xl mx-auto text-center">
-          <blockquote className="text-2xl md:text-3xl font-display italic text-earth-800 leading-relaxed">
+          <blockquote className="text-2xl md:text-3xl font-display italic text-sage-200 leading-relaxed">
             "Intention guides thought, and our thoughts create our reality. The ability to set
             clear intentions that are aligned with our highest purpose unfolds with healing."
           </blockquote>
@@ -92,12 +92,12 @@ export default function MeetKate() {
       {/* My Offerings CTA */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-display mb-8 text-earth-900">
+          <h2 className="text-3xl md:text-4xl font-display mb-8 text-sage-100">
             My Offerings
           </h2>
           <Link
             href="/energy-offerings"
-            className="inline-block px-8 py-3 bg-earth-600 text-white rounded-md hover:bg-earth-700 transition-colors font-medium"
+            className="inline-block px-8 py-3 bg-sage-600 text-sage-50 rounded-md hover:bg-sage-500 transition-colors font-medium"
           >
             Explore Energy Offerings
           </Link>
@@ -105,16 +105,16 @@ export default function MeetKate() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-4 bg-white border-t border-earth-200">
+      <section className="py-20 px-4 bg-sage-900 border-t border-sage-700">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl font-display text-center mb-12 text-earth-900">
+          <h2 className="text-4xl font-display text-center mb-12 text-sage-100">
             Get In Touch
           </h2>
           <ContactForm />
-          <p className="text-center mt-8 text-earth-700">
+          <p className="text-center mt-8 text-sage-200">
             <a
               href="mailto:serpranahealing@gmail.com"
-              className="hover:text-earth-900 transition-colors"
+              className="hover:text-sage-100 transition-colors"
             >
               serpranahealing@gmail.com
             </a>
