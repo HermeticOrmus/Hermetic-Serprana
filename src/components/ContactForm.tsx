@@ -52,7 +52,7 @@ export default function ContactForm() {
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <label htmlFor="firstName" className="block text-sm font-medium text-sage-700 mb-2">
+            <label htmlFor="firstName" className="block text-sm font-medium text-sage-200 mb-2">
               First Name
             </label>
             <input
@@ -62,7 +62,7 @@ export default function ContactForm() {
               value={formData.firstName}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 border border-sage-300 rounded-md focus:ring-2 focus:ring-sage-500 focus:border-transparent outline-none transition-colors"
+              className="w-full px-4 py-2 bg-sage-700 text-sage-100 border border-sage-600 rounded-md focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition-colors placeholder:text-sage-400"
             />
           </div>
           <div>
@@ -76,7 +76,7 @@ export default function ContactForm() {
               value={formData.lastName}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 border border-sage-300 rounded-md focus:ring-2 focus:ring-sage-500 focus:border-transparent outline-none transition-colors"
+              className="w-full px-4 py-2 bg-sage-700 text-sage-100 border border-sage-600 rounded-md focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition-colors placeholder:text-sage-400"
             />
           </div>
         </div>
@@ -122,18 +122,18 @@ export default function ContactForm() {
             onChange={handleChange}
             required
             rows={5}
-            className="w-full px-4 py-2 border border-sage-300 rounded-md focus:ring-2 focus:ring-sage-500 focus:border-transparent outline-none transition-colors resize-none"
+            className="w-full px-4 py-2 bg-sage-700 text-sage-100 border border-sage-600 rounded-md focus:ring-2 focus:ring-sage-400 focus:border-transparent outline-none transition-colors resize-none placeholder:text-sage-400"
           />
         </div>
 
         {submitStatus === "success" && (
-          <div className="p-4 bg-green-50 border border-green-200 rounded-md text-green-800">
+          <div className="p-4 bg-sage-600 border border-sage-500 rounded-md text-sage-100">
             Thank you! Your message has been sent successfully.
           </div>
         )}
 
         {submitStatus === "error" && (
-          <div className="p-4 bg-red-50 border border-red-200 rounded-md text-red-800">
+          <div className="p-4 bg-clay-700 border border-clay-600 rounded-md text-clay-100">
             Sorry, there was an error sending your message. Please try again or contact us directly.
           </div>
         )}
@@ -141,7 +141,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full px-8 py-3 bg-sage-500 text-white rounded-md hover:bg-sage-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-medium shadow-md hover:shadow-lg"
+          className="w-full px-8 py-3 bg-sage-600 text-sage-50 rounded-md hover:bg-sage-500 transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-medium shadow-md hover:shadow-lg"
         >
           {isSubmitting ? "Sending..." : "Send"}
         </button>
@@ -149,7 +149,7 @@ export default function ContactForm() {
 
       {/* WhatsApp Direct Contact */}
       <div className="mt-8 text-center">
-        <p className="text-sm text-sage-600 mb-4 italic">Or reach out directly via WhatsApp</p>
+        <p className="text-sm text-sage-300 mb-4 italic">Or reach out directly via WhatsApp</p>
         <a
           href="https://wa.me/50765652565"
           target="_blank"
@@ -161,7 +161,7 @@ export default function ContactForm() {
           </svg>
           Message on WhatsApp
         </a>
-        <p className="text-xs text-sage-500 mt-2">+507 6565-2565</p>
+        <p className="text-xs text-sage-400 mt-2">+507 6565-2565</p>
       </div>
     </>
   );
