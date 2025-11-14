@@ -18,9 +18,10 @@ export default function Home() {
             To be in the flow of life force.
           </p>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-sage-300 leading-relaxed">
-            A transformative space where density dissolves into light through <em className="italic">sound,
-            vibration, alchemy, and the wisdom of the Earth</em>. This is <em className="italic">the alchemical
-            journey of coming back to the HEART</em>.
+            Density dissolves into light through <em className="italic">sound, vibration, alchemy, and Earth wisdom</em>.
+          </p>
+          <p className="text-lg md:text-xl max-w-3xl mx-auto text-sage-300 leading-relaxed mt-4">
+            The alchemical journey back to the <em className="italic">HEART</em>.
           </p>
         </div>
       </section>
@@ -38,18 +39,13 @@ export default function Home() {
               </p>
               <div className="space-y-4 text-sage-300">
                 <p>
-                  I'm a <em className="italic">Holistic Therapist and Alchemist of Sound, Energy, and Herbal Medicine</em>,
-                  guiding individuals on their healing and empowerment journey to <em className="italic">Come to the Heart</em>.
+                  I support individuals on their journey to the Heart.
                 </p>
                 <p>
-                  Through sound, vibration, intuition, alchemy, and energy transmutation techniques,
-                  I help clear stuck or distorted emotions and densities—whether from <em className="italic">this life,
-                  ancestral lines, or past lives</em>—which often manifest as pain, dis-ease, anxiety,
-                  depression, and other imbalances.
+                  Sound, intuition, herbalism—tools I've mastered to transmute and clear distorted emotions.
                 </p>
                 <p>
-                  I support you in awakening confidence, embracing self-worth, feeling more embodied,
-                  and rediscovering your unique magic. And most importantly, I guide you to <em className="italic">Come to the Heart</em>.
+                  Let's awaken confidence, self-worth and return to the Heart.
                 </p>
               </div>
               <Link
@@ -79,7 +75,7 @@ export default function Home() {
             Contact me BEFORE you book any services!
           </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {/* Sound Healing */}
             <div className="bg-sage-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-sage-700">
               <div className="h-48 bg-sage-700 rounded-md mb-4 flex items-center justify-center text-sage-500">
@@ -89,31 +85,22 @@ export default function Home() {
               <p className="text-sm text-sage-300 mb-4 italic">1:1, Group, Retreat</p>
             </div>
 
-            {/* Inner Alchemy Guidance */}
+            {/* Herbal Consultation */}
             <div className="bg-sage-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-sage-700">
               <div className="h-48 bg-sage-700 rounded-md mb-4 flex items-center justify-center text-sage-500">
-                [Inner Alchemy Image]
+                [Herbal Medicine Image]
               </div>
-              <h3 className="text-xl font-display mb-2 text-sage-100">Inner Alchemy Guidance</h3>
-              <p className="text-sm text-sage-300 mb-4 italic">1:1</p>
+              <h3 className="text-xl font-display mb-2 text-sage-100">Herbal Consultation</h3>
+              <p className="text-sm text-sage-300 mb-4 italic">Personalized Remedies</p>
             </div>
 
-            {/* Vibrational Alchemy Journeys */}
+            {/* Psilocybin Journeys */}
             <div className="bg-sage-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-sage-700">
               <div className="h-48 bg-sage-700 rounded-md mb-4 flex items-center justify-center text-sage-500">
-                [Energy Healing Image]
+                [Psilocybin Journey Image]
               </div>
-              <h3 className="text-xl font-display mb-2 text-sage-100">Vibrational Alchemy Journeys</h3>
+              <h3 className="text-xl font-display mb-2 text-sage-100">Psilocybin Journeys</h3>
               <p className="text-sm text-sage-300 mb-4 italic">Private 1:1</p>
-            </div>
-
-            {/* Rooted Radiance */}
-            <div className="bg-sage-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-sage-700">
-              <div className="h-48 bg-sage-700 rounded-md mb-4 flex items-center justify-center text-sage-500">
-                [Nature Retreat Image]
-              </div>
-              <h3 className="text-xl font-display mb-2 text-sage-100">ROOTED RADIANCE Immersion</h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Private 3-Night 1:1</p>
             </div>
           </div>
 

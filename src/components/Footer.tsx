@@ -9,8 +9,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h3 className="text-2xl font-display mb-4">SERPRANA</h3>
             <p className="text-sage-200 mb-4">
-              A transformative space where density dissolves into light through sound,
-              vibration, alchemy, and the wisdom of the Earth.
+              Density dissolves into light through sound, vibration, alchemy, and Earth wisdom.
             </p>
             <div className="flex space-x-4">
               <a

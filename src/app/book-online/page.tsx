@@ -43,66 +43,35 @@ export default function BookOnline() {
             Available Services
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {/* Sound Healing */}
             <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
               <h3 className="text-2xl font-display mb-2 text-sage-100">Sound Healing</h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Private Group or 1:1</p>
+              <p className="text-sm text-sage-300 mb-4 italic">1:1, Group, Retreat</p>
               <p className="text-sage-200 leading-relaxed">
-                Vibrational healing using crystal bowls and high vibrational instruments.
+                Vibrational healing with crystal bowls and sacred instruments.
               </p>
             </div>
 
-            {/* Alchemy Energy Clearing */}
+            {/* Herbal Consultation */}
             <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
               <h3 className="text-2xl font-display mb-2 text-sage-100">
-                Alchemy Energy Clearing
+                Herbal Consultation
               </h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Online or In-Person</p>
+              <p className="text-sm text-sage-300 mb-4 italic">Personalized Remedies</p>
               <p className="text-sage-200 leading-relaxed">
-                Multi-layered energetic purification removing densities and blockages.
+                Personalized herbal remedies—tinctures, teas, plant preparations.
               </p>
             </div>
 
-            {/* Vibrational Alchemy Medicine Journey */}
+            {/* Psilocybin Journeys */}
             <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
               <h3 className="text-2xl font-display mb-2 text-sage-100">
-                Vibrational Alchemy Medicine Journey
+                Psilocybin Journeys
               </h3>
               <p className="text-sm text-sage-300 mb-4 italic">Private 1:1</p>
               <p className="text-sage-200 leading-relaxed">
-                Deep sound-and-energy ceremony to elevate your vibration.
-              </p>
-            </div>
-
-            {/* Rooted Radiance Immersion */}
-            <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
-              <h3 className="text-2xl font-display mb-2 text-sage-100">
-                Rooted Radiance Immersion
-              </h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Private 3-Night 1:1</p>
-              <p className="text-sage-200 leading-relaxed">
-                Personalized healing immersion in nature with ceremonies and treatments.
-              </p>
-            </div>
-
-            {/* Inner Alchemy Guidance */}
-            <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
-              <h3 className="text-2xl font-display mb-2 text-sage-100">
-                Inner Alchemy Guidance
-              </h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Mentorship Opportunities</p>
-              <p className="text-sage-200 leading-relaxed">
-                Personalized transformational journey to align with your soul's purpose.
-              </p>
-            </div>
-
-            {/* Discovery Call */}
-            <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
-              <h3 className="text-2xl font-display mb-2 text-sage-100">Discovery Call</h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Complimentary</p>
-              <p className="text-sage-200 leading-relaxed">
-                Connect with me to discuss which service is right for you.
+                Deep sound-and-energy ceremony with sacred medicine.
               </p>
             </div>
           </div>

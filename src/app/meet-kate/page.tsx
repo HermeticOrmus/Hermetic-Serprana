@@ -36,42 +36,34 @@ export default function MeetKate() {
 
               <div className="space-y-4 text-sage-200 leading-relaxed">
                 <p>
-                  Welcome to my world of <em className="italic">holistic wellness and vibrant energy</em>! I embarked on my
-                  journey in the Holistic Wellness space back in 2015, and since then, my path
-                  has been illuminated by my deep connection to <em className="italic">the Earth, plants, and the cosmic
-                  energies</em> that surround us.
+                  I started my holistic wellness journey in 2015. The Earth, plants, and cosmic energies guide me.
                 </p>
 
                 <p>
-                  I'm Kate Edelstein, the founder of SERPRANA and an <em className="italic">Alchemist of Sound, Energy,
-                  and Herbal Medicine</em> based in Playa Venao, Panama. Through my work, I empower
-                  individuals on their healing and transformation journeys. Using my intuition
-                  <em className="italic">(clairvoyance, clairaudience, and clairsentience)</em>, deep connection to Nature,
-                  and ability to conduct energy, I guide others in <em className="italic">aligning with their highest
-                  potential</em>. I'm certified in Reiki 1 & 2, Herbalism, Permaculture, and Spiritual
-                  Release Therapy (SRT), blending <em className="italic">ancient wisdom with modern practices</em> to create
-                  profound, transformative experiences.
+                  I'm Kate Edelstein, founder of SERPRANA. <em className="italic">Alchemist of Sound, Energy, and Herbal Medicine</em>.
                 </p>
 
                 <p>
-                  My work spans festivals, retreats, and community collaborations. I have
-                  performed at Radio Venao, Reactor Venao, and Yoga Gathering Venao for the past
-                  three years, including the <em className="italic">Opening Ceremony Sound Bath for Radio Venao</em>. I also
-                  facilitate sound journeys and sound workshops for retreats across Panama.
+                  I use intuition—<em className="italic">clairvoyance, clairaudience, clairsentience</em>—and energy work to guide you to your highest potential.
+                  Certified in Reiki 1 & 2, Herbalism, Permaculture, and SRT.
                 </p>
 
                 <p>
-                  Deeply influenced by time spent with the <em className="italic">Kogi and Wiwa Tribes of the Sierra
-                  Nevada</em>, I honor their ancestral teachings through ongoing <em className="italic">Pagamentos</em> and monthly
-                  meetings. Rooted in these practices, I align my work with my vision for <em className="italic">"New
-                  Earth,"</em> fostering harmony between humanity and nature while inspiring
-                  sustainable and regenerative ways of living.
+                  I perform at festivals and retreats across Panama. Radio Venao, Reactor Venao, Yoga Gathering Venao.
+                  Sound baths, sound journeys, workshops.
                 </p>
 
                 <p>
-                  Through my work, I empower others to <em className="italic">embrace their unique gifts, deepen their
-                  connection to nature and themselves</em>, and align with their highest potential,
-                  creating a <em className="italic">ripple effect of healing and transformation</em>.
+                  The <em className="italic">Kogi and Wiwa Tribes</em> of the Sierra Nevada shaped my practice.
+                  I honor their teachings through <em className="italic">Pagamentos</em> and monthly meetings.
+                </p>
+
+                <p>
+                  My vision: <em className="italic">New Earth</em>. Harmony between humanity and nature. Sustainable, regenerative living.
+                </p>
+
+                <p>
+                  Let's embrace your gifts, deepen your connection, and create transformation.
                 </p>
               </div>
             </div>
