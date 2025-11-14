@@ -83,7 +83,7 @@ export default function EnergyOfferings() {
             Have Questions?
           </h2>
           <p className="text-xl text-cream-100 mb-8 italic">
-            BEFORE you book a session contact me!
+            Before you book a session, contact me!
           </p>
           <a
             href="#contact"

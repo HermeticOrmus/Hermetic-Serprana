@@ -21,7 +21,7 @@ export default function Home() {
             Density dissolves into light through <em className="italic">sound, vibration, alchemy, and Earth wisdom</em>.
           </p>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-cream-200 leading-relaxed mt-4">
-            The alchemical journey back to the <em className="italic">HEART</em>.
+            The alchemical journey back to the <em className="italic">heart</em>.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl font-display text-cream-100">
-                Hi My LoVEs!
+                Hi my loves!
               </h2>
               <p className="text-xl font-display text-cream-100">
                 My name is Kate!
@@ -69,10 +69,10 @@ export default function Home() {
       <section className="py-20 px-4 bg-sage-500">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-display text-center mb-4 text-cream-100">
-            ENERGY Offerings
+            Energy Offerings
           </h2>
           <p className="text-center text-cream-200 mb-12 italic">
-            Contact me BEFORE you book any services!
+            Contact me before you book any services!
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
