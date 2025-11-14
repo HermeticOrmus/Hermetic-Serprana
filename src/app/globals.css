@@ -1,21 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  /* Dark sage backgrounds */
-  --background: #2d3f2e;
-  --background-secondary: #364d37;
+  /* Green sage backgrounds */
+  --background: #66756C;
+  --background-secondary: #525e56;
 
-  /* Light text colors for dark mode */
-  --foreground: #e8f0e9;
-  --foreground-muted: #b0cdb2;
+  /* Off-white/cream text colors */
+  --foreground: #F2F3F1;
+  --foreground-muted: #d8dad7;
 
-  /* Accent colors - lighter sage for visibility */
-  --accent: #82af85;
-  --accent-hover: #b0cdb2;
+  /* Terracotta accent colors */
+  --accent: #B37B64;
+  --accent-hover: #c5987e;
 
-  /* Borders - subtle in dark mode */
-  --border: #405d42;
-  --border-light: #4f7251;
+  /* Borders - subtle green tones */
+  --border: #525e56;
+  --border-light: #66756C;
 
   /* Fonts */
   --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;

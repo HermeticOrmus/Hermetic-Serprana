@@ -2,22 +2,21 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-sage-900 text-sage-50 border-t border-sage-800">
+    <footer className="bg-sage-500 text-cream-50 border-t border-sage-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
             <h3 className="text-2xl font-display mb-4">SERPRANA</h3>
-            <p className="text-sage-200 mb-4">
-              A transformative space where density dissolves into light through sound,
-              vibration, alchemy, and the wisdom of the Earth.
+            <p className="text-cream-100 mb-4">
+              Density dissolves into light through sound, vibration, alchemy, and Earth wisdom.
             </p>
             <div className="flex space-x-4">
               <a
                 href="https://www.instagram.com/serprana"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sage-200 hover:text-sage-100 transition-colors"
+                className="text-cream-100 hover:text-cream-200 transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -28,7 +27,7 @@ export default function Footer() {
                 href="https://www.facebook.com/serprana"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sage-200 hover:text-sage-100 transition-colors"
+                className="text-cream-100 hover:text-cream-200 transition-colors"
                 aria-label="Facebook"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -43,22 +42,22 @@ export default function Footer() {
             <h4 className="font-display text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-sage-200 hover:text-sage-100 transition-colors">
+                <Link href="/" className="text-cream-100 hover:text-cream-200 transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/meet-kate" className="text-earth-200 hover:text-white transition-colors">
+                <Link href="/meet-kate" className="text-cream-100 hover:text-cream-200 transition-colors">
                   Meet Kate
                 </Link>
               </li>
               <li>
-                <Link href="/energy-offerings" className="text-earth-200 hover:text-white transition-colors">
+                <Link href="/energy-offerings" className="text-cream-100 hover:text-cream-200 transition-colors">
                   Energy Offerings
                 </Link>
               </li>
               <li>
-                <Link href="/book-online" className="text-earth-200 hover:text-white transition-colors">
+                <Link href="/book-online" className="text-cream-100 hover:text-cream-200 transition-colors">
                   Book Online
                 </Link>
               </li>
@@ -68,20 +67,20 @@ export default function Footer() {
           {/* Contact & Payment */}
           <div>
             <h4 className="font-display text-lg mb-4">Contact</h4>
-            <p className="text-sage-200 mb-2">
-              <a href="mailto:serpranahealing@gmail.com" className="hover:text-sage-100 transition-colors">
+            <p className="text-cream-100 mb-2">
+              <a href="mailto:serpranahealing@gmail.com" className="hover:text-cream-200 transition-colors">
                 serpranahealing@gmail.com
               </a>
             </p>
-            <p className="text-sage-200 mb-4">Playa Venao, Panama</p>
-            <div className="text-sm text-sage-300">
+            <p className="text-cream-100 mb-4">Playa Venao, Panama</p>
+            <div className="text-sm text-cream-200">
               <p className="mb-2">Payment Methods:</p>
               <p>Yappy • Cash • Bank Transfer • PayPal</p>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-sage-800 mt-8 pt-8 text-center text-sage-300 text-sm">
+        <div className="border-t border-sage-700 mt-8 pt-8 text-center text-cream-200 text-sm">
           <p>© 2023 by SERPRANA. All rights reserved.</p>
         </div>
       </div>

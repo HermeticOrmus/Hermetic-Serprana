@@ -7,27 +7,27 @@ export const metadata = {
 
 export default function BookOnline() {
   return (
-    <div className="bg-sage-900">
+    <div className="bg-sage-500">
       {/* Hero Section */}
-      <section className="py-20 px-4 bg-gradient-to-b from-sage-800 to-sage-900">
+      <section className="py-20 px-4 bg-gradient-to-b from-sage-600 to-sage-500">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-display mb-6 text-sage-100">
+          <h1 className="text-5xl md:text-6xl font-display mb-6 text-cream-100">
             Book Your Session
           </h1>
-          <p className="text-xl text-sage-200 leading-relaxed italic">
+          <p className="text-xl text-cream-100 leading-relaxed italic">
             Ready to begin your <em className="not-italic font-medium">transformative journey</em>? Contact me to schedule your session.
           </p>
         </div>
       </section>
 
       {/* Important Notice */}
-      <section className="py-12 px-4 bg-sage-800">
+      <section className="py-12 px-4 bg-sage-600">
         <div className="max-w-3xl mx-auto">
-          <div className="bg-sage-700 border-2 border-sage-600 rounded-lg p-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-display mb-4 text-sage-100">
+          <div className="bg-sage-700 border-2 border-sage-700 rounded-lg p-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-display mb-4 text-cream-100">
               Please Contact Me First
             </h2>
-            <p className="text-sage-200 leading-relaxed">
+            <p className="text-cream-100 leading-relaxed">
               Before booking any services, I'd love to connect with you to ensure we find the
               <em className="italic">perfect offering for your unique needs and intentions</em>. Please fill out the form
               below or email me directly.
@@ -39,70 +39,39 @@ export default function BookOnline() {
       {/* Services Overview */}
       <section className="py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-display text-center mb-12 text-sage-100">
+          <h2 className="text-3xl md:text-4xl font-display text-center mb-12 text-cream-100">
             Available Services
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {/* Sound Healing */}
-            <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
-              <h3 className="text-2xl font-display mb-2 text-sage-100">Sound Healing</h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Private Group or 1:1</p>
-              <p className="text-sage-200 leading-relaxed">
-                Vibrational healing using crystal bowls and high vibrational instruments.
+            <div className="bg-sage-600 p-6 rounded-lg border border-sage-700">
+              <h3 className="text-2xl font-display mb-2 text-cream-100">Sound Healing</h3>
+              <p className="text-sm text-cream-200 mb-4 italic">1:1, Group, Retreat</p>
+              <p className="text-cream-100 leading-relaxed">
+                Vibrational healing with crystal bowls and sacred instruments.
               </p>
             </div>
 
-            {/* Alchemy Energy Clearing */}
-            <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
-              <h3 className="text-2xl font-display mb-2 text-sage-100">
-                Alchemy Energy Clearing
+            {/* Herbal Consultation */}
+            <div className="bg-sage-600 p-6 rounded-lg border border-sage-700">
+              <h3 className="text-2xl font-display mb-2 text-cream-100">
+                Herbal Consultation
               </h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Online or In-Person</p>
-              <p className="text-sage-200 leading-relaxed">
-                Multi-layered energetic purification removing densities and blockages.
+              <p className="text-sm text-cream-200 mb-4 italic">Personalized Remedies</p>
+              <p className="text-cream-100 leading-relaxed">
+                Personalized herbal remedies—tinctures, teas, plant preparations.
               </p>
             </div>
 
-            {/* Vibrational Alchemy Medicine Journey */}
-            <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
-              <h3 className="text-2xl font-display mb-2 text-sage-100">
-                Vibrational Alchemy Medicine Journey
+            {/* Psilocybin Journeys */}
+            <div className="bg-sage-600 p-6 rounded-lg border border-sage-700">
+              <h3 className="text-2xl font-display mb-2 text-cream-100">
+                Psilocybin Journeys
               </h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Private 1:1</p>
-              <p className="text-sage-200 leading-relaxed">
-                Deep sound-and-energy ceremony to elevate your vibration.
-              </p>
-            </div>
-
-            {/* Rooted Radiance Immersion */}
-            <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
-              <h3 className="text-2xl font-display mb-2 text-sage-100">
-                Rooted Radiance Immersion
-              </h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Private 3-Night 1:1</p>
-              <p className="text-sage-200 leading-relaxed">
-                Personalized healing immersion in nature with ceremonies and treatments.
-              </p>
-            </div>
-
-            {/* Inner Alchemy Guidance */}
-            <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
-              <h3 className="text-2xl font-display mb-2 text-sage-100">
-                Inner Alchemy Guidance
-              </h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Mentorship Opportunities</p>
-              <p className="text-sage-200 leading-relaxed">
-                Personalized transformational journey to align with your soul's purpose.
-              </p>
-            </div>
-
-            {/* Discovery Call */}
-            <div className="bg-sage-800 p-6 rounded-lg border border-sage-700">
-              <h3 className="text-2xl font-display mb-2 text-sage-100">Discovery Call</h3>
-              <p className="text-sm text-sage-300 mb-4 italic">Complimentary</p>
-              <p className="text-sage-200 leading-relaxed">
-                Connect with me to discuss which service is right for you.
+              <p className="text-sm text-cream-200 mb-4 italic">Private 1:1</p>
+              <p className="text-cream-100 leading-relaxed">
+                Deep sound-and-energy ceremony with sacred medicine.
               </p>
             </div>
           </div>
@@ -110,19 +79,19 @@ export default function BookOnline() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-20 px-4 bg-sage-900 border-t border-sage-700">
+      <section className="py-20 px-4 bg-sage-500 border-t border-sage-700">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl font-display text-center mb-4 text-sage-100">
+          <h2 className="text-4xl font-display text-center mb-4 text-cream-100">
             Book Your Session
           </h2>
-          <p className="text-center text-sage-200 mb-12 italic">
+          <p className="text-center text-cream-100 mb-12 italic">
             Fill out the form below and I'll get back to you within 24-48 hours.
           </p>
           <ContactForm />
-          <p className="text-center mt-8 text-sage-200">
+          <p className="text-center mt-8 text-cream-100">
             <a
               href="mailto:serpranahealing@gmail.com"
-              className="hover:text-sage-100 transition-colors"
+              className="hover:text-cream-200 transition-colors"
             >
               serpranahealing@gmail.com
             </a>
@@ -131,10 +100,10 @@ export default function BookOnline() {
       </section>
 
       {/* Payment Info */}
-      <section className="py-12 px-4 bg-sage-800">
+      <section className="py-12 px-4 bg-sage-600">
         <div className="max-w-3xl mx-auto text-center">
-          <h3 className="text-2xl font-display mb-4 text-sage-100">Payment Methods</h3>
-          <p className="text-sage-200">
+          <h3 className="text-2xl font-display mb-4 text-cream-100">Payment Methods</h3>
+          <p className="text-cream-100">
             I accept Yappy, Cash, Direct Bank Transfer, and PayPal
           </p>
         </div>

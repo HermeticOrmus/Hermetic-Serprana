@@ -14,12 +14,12 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="bg-sage-900/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-sage-700">
+    <nav className="bg-sage-500/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-sage-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <span className="text-2xl font-display text-sage-100">SERPRANA</span>
+            <span className="text-2xl font-display text-cream-100">SERPRANA</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -28,7 +28,7 @@ export default function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sage-200 hover:text-sage-100 transition-colors font-medium"
+                className="text-cream-100 hover:text-cream-200 transition-colors font-medium"
               >
                 {link.label}
               </Link>
@@ -38,7 +38,7 @@ export default function Navigation() {
                 href="https://www.instagram.com/serprana"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sage-200 hover:text-sage-100 transition-colors"
+                className="text-cream-100 hover:text-cream-200 transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -49,7 +49,7 @@ export default function Navigation() {
                 href="https://www.facebook.com/serprana"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sage-200 hover:text-sage-100 transition-colors"
+                className="text-cream-100 hover:text-cream-200 transition-colors"
                 aria-label="Facebook"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -62,7 +62,7 @@ export default function Navigation() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-md text-sage-200 hover:text-sage-100 hover:bg-sage-800"
+            className="md:hidden p-2 rounded-md text-cream-100 hover:text-cream-200 hover:bg-sage-600"
             aria-label="Toggle menu"
           >
             <svg
@@ -92,7 +92,7 @@ export default function Navigation() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-sage-200 hover:text-sage-100 transition-colors font-medium"
+                  className="text-cream-100 hover:text-cream-200 transition-colors font-medium"
                 >
                   {link.label}
                 </Link>
@@ -102,7 +102,7 @@ export default function Navigation() {
                   href="https://www.instagram.com/serprana"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sage-200 hover:text-sage-100 transition-colors"
+                  className="text-cream-100 hover:text-cream-200 transition-colors"
                   aria-label="Instagram"
                 >
                   Instagram
@@ -111,7 +111,7 @@ export default function Navigation() {
                   href="https://www.facebook.com/serprana"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sage-200 hover:text-sage-100 transition-colors"
+                  className="text-cream-100 hover:text-cream-200 transition-colors"
                   aria-label="Facebook"
                 >
                   Facebook

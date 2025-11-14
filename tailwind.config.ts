@@ -11,57 +11,57 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        // Primary sage/green accent - rgb(97, 139, 99)
+        // Primary green/sage background - base: #66756C
         sage: {
-          50: '#f4f7f4',
-          100: '#e8f0e9',
-          200: '#d1e1d2',
-          300: '#b0cdb2',
-          400: '#82af85',
-          500: '#618b63', // Main accent color
-          600: '#4f7251',
-          700: '#405d42',
-          800: '#364d37',
-          900: '#2d3f2e',
+          50: '#f5f6f5',
+          100: '#e8eae8',
+          200: '#d1d5d1',
+          300: '#b0b5b0',
+          400: '#8b938b',
+          500: '#66756C', // Main background color
+          600: '#525e56',
+          700: '#424d46',
+          800: '#35403a',
+          900: '#2c3530',
         },
-        // Warm terracotta/clay tones
-        clay: {
-          50: '#faf7f4',
-          100: '#f4ede6',
-          200: '#e8d9cc',
-          300: '#d7bea8',
-          400: '#c59f7e',
-          500: '#b5825f',
-          600: '#a36d4d',
-          700: '#885941',
-          800: '#6f4a38',
-          900: '#5c3d2f',
-        },
-        // Soft cream/neutral tones
+        // Off-white/cream for text - base: #F2F3F1
         cream: {
-          50: '#fdfcfb',
-          100: '#faf8f5',
-          200: '#f5f1eb',
-          300: '#ebe5dc',
-          400: '#ddd3c5',
-          500: '#c9bba9',
-          600: '#a79683',
-          700: '#8a7a6a',
-          800: '#726459',
-          900: '#5f544b',
+          50: '#ffffff',
+          100: '#F2F3F1', // Main text color
+          200: '#e5e6e4',
+          300: '#d8dad7',
+          400: '#cbcdca',
+          500: '#bec0bd',
+          600: '#999a98',
+          700: '#737473',
+          800: '#4d4d4d',
+          900: '#262626',
         },
-        // Accent variants for specific uses
-        earth: {
-          50: '#faf7f4',
-          100: '#f5efe8',
-          200: '#e8ddd0',
-          300: '#d9c7b0',
-          400: '#c9ad8e',
-          500: '#b89372',
-          600: '#a67d5f',
-          700: '#8a6850',
-          800: '#715746',
-          900: '#5d493b',
+        // Terracotta accent - base: #B37B64
+        terracotta: {
+          50: '#faf6f4',
+          100: '#f4ede9',
+          200: '#e8d9d1',
+          300: '#d7b8a8',
+          400: '#c5987e',
+          500: '#B37B64', // Main accent color
+          600: '#9f6350',
+          700: '#835142',
+          800: '#6a4336',
+          900: '#57382d',
+        },
+        // Keep clay for backwards compatibility
+        clay: {
+          50: '#faf6f4',
+          100: '#f4ede9',
+          200: '#e8d9d1',
+          300: '#d7b8a8',
+          400: '#c5987e',
+          500: '#B37B64',
+          600: '#9f6350',
+          700: '#835142',
+          800: '#6a4336',
+          900: '#57382d',
         },
       },
       fontFamily: {
