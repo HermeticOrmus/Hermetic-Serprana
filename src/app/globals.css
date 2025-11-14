@@ -25,3 +25,18 @@ h1, h2, h3, h4, h5, h6 {
 .text-balance {
   text-wrap: balance;
 }
+
+/* Accent text utility */
+.text-accent {
+  font-style: italic;
+  color: #8a6850;
+}
+
+/* Emphasis utility */
+em.italic {
+  font-style: italic;
+}
+
+em.not-italic {
+  font-style: normal;
+}

@@ -12,7 +12,7 @@ export default function MeetKate() {
       {/* Hero Section */}
       <section className="py-20 px-4 bg-gradient-to-b from-sage-50 to-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-display mb-6 text-earth-900">
+          <h1 className="text-5xl md:text-6xl font-display mb-6 text-earth-900 italic">
             I look forward to knowing you
           </h1>
         </div>
@@ -36,42 +36,42 @@ export default function MeetKate() {
 
               <div className="space-y-4 text-earth-800 leading-relaxed">
                 <p>
-                  Welcome to my world of holistic wellness and vibrant energy! I embarked on my
+                  Welcome to my world of <em className="italic">holistic wellness and vibrant energy</em>! I embarked on my
                   journey in the Holistic Wellness space back in 2015, and since then, my path
-                  has been illuminated by my deep connection to the Earth, plants, and the cosmic
-                  energies that surround us.
+                  has been illuminated by my deep connection to <em className="italic">the Earth, plants, and the cosmic
+                  energies</em> that surround us.
                 </p>
 
                 <p>
-                  I'm Kate Edelstein, the founder of SERPRANA and an Alchemist of Sound, Energy,
-                  and Herbal Medicine based in Playa Venao, Panama. Through my work, I empower
+                  I'm Kate Edelstein, the founder of SERPRANA and an <em className="italic">Alchemist of Sound, Energy,
+                  and Herbal Medicine</em> based in Playa Venao, Panama. Through my work, I empower
                   individuals on their healing and transformation journeys. Using my intuition
-                  (clairvoyance, clairaudience, and clairsentience), deep connection to Nature,
-                  and ability to conduct energy, I guide others in aligning with their highest
-                  potential. I'm certified in Reiki 1 & 2, Herbalism, Permaculture, and Spiritual
-                  Release Therapy (SRT), blending ancient wisdom with modern practices to create
+                  <em className="italic">(clairvoyance, clairaudience, and clairsentience)</em>, deep connection to Nature,
+                  and ability to conduct energy, I guide others in <em className="italic">aligning with their highest
+                  potential</em>. I'm certified in Reiki 1 & 2, Herbalism, Permaculture, and Spiritual
+                  Release Therapy (SRT), blending <em className="italic">ancient wisdom with modern practices</em> to create
                   profound, transformative experiences.
                 </p>
 
                 <p>
                   My work spans festivals, retreats, and community collaborations. I have
                   performed at Radio Venao, Reactor Venao, and Yoga Gathering Venao for the past
-                  three years, including the Opening Ceremony Sound Bath for Radio Venao. I also
+                  three years, including the <em className="italic">Opening Ceremony Sound Bath for Radio Venao</em>. I also
                   facilitate sound journeys and sound workshops for retreats across Panama.
                 </p>
 
                 <p>
-                  Deeply influenced by time spent with the Kogi and Wiwa Tribes of the Sierra
-                  Nevada, I honor their ancestral teachings through ongoing Pagamentos and monthly
-                  meetings. Rooted in these practices, I align my work with my vision for "New
-                  Earth," fostering harmony between humanity and nature while inspiring
+                  Deeply influenced by time spent with the <em className="italic">Kogi and Wiwa Tribes of the Sierra
+                  Nevada</em>, I honor their ancestral teachings through ongoing <em className="italic">Pagamentos</em> and monthly
+                  meetings. Rooted in these practices, I align my work with my vision for <em className="italic">"New
+                  Earth,"</em> fostering harmony between humanity and nature while inspiring
                   sustainable and regenerative ways of living.
                 </p>
 
                 <p>
-                  Through my work, I empower others to embrace their unique gifts, deepen their
-                  connection to nature and themselves, and align with their highest potential,
-                  creating a ripple effect of healing and transformation.
+                  Through my work, I empower others to <em className="italic">embrace their unique gifts, deepen their
+                  connection to nature and themselves</em>, and align with their highest potential,
+                  creating a <em className="italic">ripple effect of healing and transformation</em>.
                 </p>
               </div>
             </div>

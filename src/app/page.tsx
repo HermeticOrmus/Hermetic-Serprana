@@ -18,9 +18,9 @@ export default function Home() {
             To be in the flow of life force.
           </p>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-earth-800 leading-relaxed">
-            A transformative space where density dissolves into light through sound,
-            vibration, alchemy, and the wisdom of the Earth. This is the alchemical
-            journey of coming back to the HEART.
+            A transformative space where density dissolves into light through <em className="italic">sound,
+            vibration, alchemy, and the wisdom of the Earth</em>. This is <em className="italic">the alchemical
+            journey of coming back to the HEART</em>.
           </p>
         </div>
       </section>
@@ -38,18 +38,18 @@ export default function Home() {
               </p>
               <div className="space-y-4 text-earth-800">
                 <p>
-                  I'm a Holistic Therapist and Alchemist of Sound, Energy, and Herbal Medicine,
-                  guiding individuals on their healing and empowerment journey to Come to the Heart.
+                  I'm a <em className="italic">Holistic Therapist and Alchemist of Sound, Energy, and Herbal Medicine</em>,
+                  guiding individuals on their healing and empowerment journey to <em className="italic">Come to the Heart</em>.
                 </p>
                 <p>
                   Through sound, vibration, intuition, alchemy, and energy transmutation techniques,
-                  I help clear stuck or distorted emotions and densities—whether from this life,
-                  ancestral lines, or past lives—which often manifest as pain, dis-ease, anxiety,
+                  I help clear stuck or distorted emotions and densities—whether from <em className="italic">this life,
+                  ancestral lines, or past lives</em>—which often manifest as pain, dis-ease, anxiety,
                   depression, and other imbalances.
                 </p>
                 <p>
                   I support you in awakening confidence, embracing self-worth, feeling more embodied,
-                  and rediscovering your unique magic. And most importantly, I guide you to Come to the Heart.
+                  and rediscovering your unique magic. And most importantly, I guide you to <em className="italic">Come to the Heart</em>.
                 </p>
               </div>
               <Link
@@ -86,7 +86,7 @@ export default function Home() {
                 [Sound Healing Image]
               </div>
               <h3 className="text-xl font-display mb-2 text-earth-900">Sound Healing</h3>
-              <p className="text-sm text-earth-600 mb-4">1:1, Group, Retreat</p>
+              <p className="text-sm text-earth-600 mb-4 italic">1:1, Group, Retreat</p>
             </div>
 
             {/* Inner Alchemy Guidance */}
@@ -95,7 +95,7 @@ export default function Home() {
                 [Inner Alchemy Image]
               </div>
               <h3 className="text-xl font-display mb-2 text-earth-900">Inner Alchemy Guidance</h3>
-              <p className="text-sm text-earth-600 mb-4">1:1</p>
+              <p className="text-sm text-earth-600 mb-4 italic">1:1</p>
             </div>
 
             {/* Vibrational Alchemy Journeys */}
@@ -104,7 +104,7 @@ export default function Home() {
                 [Energy Healing Image]
               </div>
               <h3 className="text-xl font-display mb-2 text-earth-900">Vibrational Alchemy Journeys</h3>
-              <p className="text-sm text-earth-600 mb-4">Private 1:1</p>
+              <p className="text-sm text-earth-600 mb-4 italic">Private 1:1</p>
             </div>
 
             {/* Rooted Radiance */}
@@ -113,7 +113,7 @@ export default function Home() {
                 [Nature Retreat Image]
               </div>
               <h3 className="text-xl font-display mb-2 text-earth-900">ROOTED RADIANCE Immersion</h3>
-              <p className="text-sm text-earth-600 mb-4">Private 3-Night 1:1</p>
+              <p className="text-sm text-earth-600 mb-4 italic">Private 3-Night 1:1</p>
             </div>
           </div>
 
