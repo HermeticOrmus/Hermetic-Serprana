@@ -43,13 +43,24 @@ export default function BookOnline() {
             Available Services
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Sound Healing */}
             <div className="bg-sage-600 p-6 rounded-lg border border-sage-700">
               <h3 className="text-2xl font-display mb-2 text-cream-100">Sound Healing</h3>
               <p className="text-sm text-cream-200 mb-4 italic">1:1, Group, Retreat</p>
               <p className="text-cream-100 leading-relaxed">
                 Vibrational healing with crystal bowls and sacred instruments.
+              </p>
+            </div>
+
+            {/* Energy Clearing Online */}
+            <div className="bg-sage-600 p-6 rounded-lg border border-sage-700">
+              <h3 className="text-2xl font-display mb-2 text-cream-100">
+                Energy Clearing Online
+              </h3>
+              <p className="text-sm text-cream-200 mb-4 italic">Virtual Sessions</p>
+              <p className="text-cream-100 leading-relaxed">
+                Remote energy clearing from anywhere in the world.
               </p>
             </div>
 

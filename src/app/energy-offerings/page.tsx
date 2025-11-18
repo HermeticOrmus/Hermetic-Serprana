@@ -15,6 +15,14 @@ const offerings = [
       "For anyone feeling overwhelmed, blocked, stressed, or disconnected—craving peace, clarity, and a full-body reset."
   },
   {
+    title: "Energy Clearing Online",
+    type: "Virtual Sessions Available",
+    description:
+      "Remote energy clearing sessions that work with your energetic field to release blockages, transmute distorted emotions, and restore balance—no matter where you are in the world.",
+    forWhom:
+      "For anyone seeking energetic support and healing from the comfort of their own space."
+  },
+  {
     title: "Herbal Consultation",
     type: "Personalized Remedies",
     description:
@@ -87,7 +95,7 @@ export default function EnergyOfferings() {
           </p>
           <a
             href="#contact"
-            className="inline-block px-8 py-3 bg-terracotta-500 text-cream-50 rounded-md hover:bg-terracotta-400 transition-colors font-medium"
+            className="inline-block px-8 py-3 bg-sage-50 text-sage-800 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
           >
             Contact Me
           </a>

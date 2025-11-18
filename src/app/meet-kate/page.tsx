@@ -36,34 +36,35 @@ export default function MeetKate() {
 
               <div className="space-y-4 text-cream-200 leading-relaxed">
                 <p>
-                  I started my holistic wellness journey in 2015. The Earth, plants, and cosmic energies guide me.
+                  I'm <em className="italic font-bold">Kate Edelstein</em>, founder of SERPRANA.
                 </p>
 
                 <p>
-                  I'm Kate Edelstein, founder of SERPRANA. <em className="italic">Alchemist of Sound, Energy, and Herbal Medicine</em>.
+                  My path in holistic wellness began in 2015, guided by my strong intuition, a deep connection to Nature, and a devotion to living from the <span className="font-bold">HEART</span>.
                 </p>
 
                 <p>
-                  I use intuition—<em className="italic">clairvoyance, clairaudience, clairsentience</em>—and energy work to guide you to your highest potential.
-                  Certified in Reiki 1 & 2, Herbalism, Permaculture, and SRT.
+                  Trained in Sound Healing, Reiki, Herbalism, and Spiritual Response Therapy and Energy Clearing from the Universidad de la Alqvimia, I weave these foundations with my unwavering intuition to support deep emotional and energetic transformation.
                 </p>
 
                 <p>
-                  I perform at festivals and retreats across Panama. Radio Venao, Reactor Venao, Yoga Gathering Venao.
-                  Sound baths, sound journeys, workshops.
+                  As a <em className="italic font-bold">Holistic Alchemist</em>, I combine sound, energy, intuition, and plant wisdom to clear distorted emotions, dissolve density, and reconnect people to clarity, confidence, and their true essence.
                 </p>
 
                 <p>
-                  The <em className="italic">Kogi and Wiwa Tribes</em> of the Sierra Nevada shaped my practice.
-                  I honor their teachings through <em className="italic">Pagamentos</em> and monthly meetings.
+                  My relationship with Nature is shaped by my time with the Kogi and Wiwa Tribes of the Sierra Nevada and my permaculture studies in Guatemala—showing me how to partner with and deeply connect with the Earth, in the healing work I do.
                 </p>
 
                 <p>
-                  My vision: <em className="italic">New Earth</em>. Harmony between humanity and nature. Sustainable, regenerative living.
+                  I've shared Sound Medicine and plant wisdom at retreats and festivals across <em className="italic font-bold">Panama</em>, including Radio Venao, Reactor Venao, and Yoga Gathering Venao, and continue to expand into retreats <em className="italic">around the world</em>.
                 </p>
 
                 <p>
-                  Let's embrace your gifts, deepen your connection, and create transformation.
+                  <em className="italic font-bold">My vision:</em> to help elevate consciousness and guide others back to the <span className="font-bold">HEART</span>—so you remember who you are, embody your gifts, and support the creation of a more aligned, connected New Earth.
+                </p>
+
+                <p>
+                  <em className="italic font-bold">This is the work:</em> returning to the <span className="font-bold">HEART</span>, expanding awareness, and becoming the medicine you came here to be.
                 </p>
               </div>
             </div>
@@ -71,13 +72,26 @@ export default function MeetKate() {
         </div>
       </section>
 
-      {/* Quote Section */}
+      {/* Holistic Alchemist Definition */}
       <section className="py-16 px-4 bg-sage-600">
-        <div className="max-w-4xl mx-auto text-center">
-          <blockquote className="text-2xl md:text-3xl font-display italic text-cream-100 leading-relaxed">
-            "Intention guides thought, and our thoughts create our reality. The ability to set
-            clear intentions that are aligned with our highest purpose unfolds with healing."
-          </blockquote>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-display mb-8 text-cream-100">
+            <em className="italic font-bold">What it means to be a <em className="italic font-bold underline">Holistic Alchemist</em>:</em>
+          </h2>
+
+          <div className="space-y-6 text-cream-200 leading-relaxed text-lg">
+            <p>
+              An <em className="italic font-bold">Alchemist</em> transforms something from one state into a more refined, aligned state.
+            </p>
+
+            <p>
+              As a <em className="italic font-bold underline">Holistic Alchemist</em>, I bridge intuition with different tools to support the transformation of your energy, emotions, and patterns—shifting heaviness, confusion, and emotional distortions into clarity, alignment, and empowerment.
+            </p>
+
+            <p>
+              I shine LIGHT on the darkness—the patterns and emotions that keep you stuck—so they can be understood and released. My work helps you feel lighter, clearer, more grounded, and brings you back to the <span className="font-bold">HEART</span>, so you can embody who you're meant to be.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -89,7 +103,7 @@ export default function MeetKate() {
           </h2>
           <Link
             href="/energy-offerings"
-            className="inline-block px-8 py-3 bg-terracotta-500 text-cream-50 rounded-md hover:bg-terracotta-400 transition-colors font-medium"
+            className="inline-block px-8 py-3 bg-sage-50 text-sage-800 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
           >
             Explore Energy Offerings
           </Link>

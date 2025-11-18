@@ -37,18 +37,18 @@ const config: Config = {
           800: '#4d4d4d',
           900: '#262626',
         },
-        // Terracotta accent - base: #B37B64
+        // Terracotta accent - base: #a63b2d
         terracotta: {
-          50: '#faf6f4',
-          100: '#f4ede9',
-          200: '#e8d9d1',
-          300: '#d7b8a8',
-          400: '#c5987e',
-          500: '#B37B64', // Main accent color
-          600: '#9f6350',
-          700: '#835142',
-          800: '#6a4336',
-          900: '#57382d',
+          50: '#fbeae7',
+          100: '#f7d5cf',
+          200: '#efaba0',
+          300: '#e78170',
+          400: '#df5741',
+          500: '#a63b2d', // Main accent color
+          600: '#852f24',
+          700: '#64231b',
+          800: '#421812',
+          900: '#210c09',
         },
         // Keep clay for backwards compatibility
         clay: {

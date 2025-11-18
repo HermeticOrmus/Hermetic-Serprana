@@ -72,7 +72,8 @@ export default function Footer() {
                 serpranahealing@gmail.com
               </a>
             </p>
-            <p className="text-cream-100 mb-4">Playa Venao, Panama</p>
+            <p className="text-cream-100 mb-1">Playa Venao, Panama</p>
+            <p className="text-cream-100 mb-4">Nosara, Costa Rica</p>
             <div className="text-sm text-cream-200">
               <p className="mb-2">Payment Methods:</p>
               <p>Yappy • Cash • Bank Transfer • PayPal</p>

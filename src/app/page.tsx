@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
@@ -11,17 +12,17 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl font-display mb-6 text-cream-100">
             SERPRANA
           </h1>
-          <p className="text-2xl md:text-3xl mb-4 text-cream-100 font-display italic">
-            To be a Life Force.
+          <p className="text-2xl md:text-3xl mb-4 text-cream-100 font-display">
+            <em className="italic font-bold">To be a Life Force.</em>
           </p>
-          <p className="text-2xl md:text-3xl mb-8 text-cream-100 font-display italic">
-            To be in the flow of life force.
+          <p className="text-2xl md:text-3xl mb-8 text-cream-100 font-display">
+            To be in the flow of Life Force.
           </p>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-cream-200 leading-relaxed">
-            Density dissolves into light through <em className="italic">sound, vibration, alchemy, and Earth wisdom</em>.
+            Density dissolves into light through <em className="italic font-bold">sound, vibration, alchemy</em>, and <em className="italic font-bold">Earth wisdom</em>.
           </p>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-cream-200 leading-relaxed mt-4">
-            The alchemical journey back to the <em className="italic">HEART</em>.
+            The alchemical journey back to the <em className="italic font-bold">HEART</em>.
           </p>
         </div>
       </section>
@@ -32,25 +33,19 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl font-display text-cream-100">
-                Hi My LoVEs!
+                <em className="italic font-bold">Hi My Loves!</em>
               </h2>
               <p className="text-xl font-display text-cream-100">
-                My name is Kate!
+                My name is <em className="italic font-bold">Kate</em>!
               </p>
               <div className="space-y-4 text-cream-200">
                 <p>
-                  I support individuals on their journey to the Heart.
-                </p>
-                <p>
-                  Sound, intuition, herbalism—tools I've mastered to transmute and clear distorted emotions.
-                </p>
-                <p>
-                  Let's awaken confidence, self-worth and return to the Heart.
+                  As a <em className="italic font-bold">Holistic Alchemist</em>, I support and guide individuals back to the <span className="font-bold">HEART</span>. Using sound, intuition, and plant wisdom—tools I've refined over the years—I help transmute distorted emotions, clear density, and reconnect you to confidence, clarity, and embodied self-worth—aligning you with your truth, your essence, your <span className="font-bold">HEART</span>.
                 </p>
               </div>
               <Link
                 href="/meet-kate"
-                className="inline-block px-8 py-3 bg-terracotta-500 text-cream-50 rounded-md hover:bg-terracotta-400 transition-colors font-medium shadow-md hover:shadow-lg"
+                className="inline-block px-8 py-3 bg-sage-50 text-sage-800 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
               >
                 Learn More
               </Link>
@@ -78,8 +73,14 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {/* Sound Healing */}
             <div className="bg-sage-600 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-sage-700">
-              <div className="h-48 bg-sage-700 rounded-md mb-4 flex items-center justify-center text-cream-300">
-                [Sound Healing Image]
+              <div className="h-48 rounded-md mb-4 overflow-hidden">
+                <Image
+                  src="/images/sound-healing.jpg"
+                  alt="Sound Healing"
+                  width={400}
+                  height={300}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-xl font-display mb-2 text-cream-100">Sound Healing</h3>
               <p className="text-sm text-cream-200 mb-4 italic">1:1, Group, Retreat</p>
@@ -87,8 +88,14 @@ export default function Home() {
 
             {/* Herbal Consultation */}
             <div className="bg-sage-600 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-sage-700">
-              <div className="h-48 bg-sage-700 rounded-md mb-4 flex items-center justify-center text-cream-300">
-                [Herbal Medicine Image]
+              <div className="h-48 rounded-md mb-4 overflow-hidden">
+                <Image
+                  src="/images/herbal-consultation.jpg"
+                  alt="Herbal Consultation"
+                  width={400}
+                  height={300}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-xl font-display mb-2 text-cream-100">Herbal Consultation</h3>
               <p className="text-sm text-cream-200 mb-4 italic">Personalized Remedies</p>
@@ -96,8 +103,14 @@ export default function Home() {
 
             {/* Psilocybin Journeys */}
             <div className="bg-sage-600 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-sage-700">
-              <div className="h-48 bg-sage-700 rounded-md mb-4 flex items-center justify-center text-cream-300">
-                [Psilocybin Journey Image]
+              <div className="h-48 rounded-md mb-4 overflow-hidden">
+                <Image
+                  src="/images/psilocybin-journey.png"
+                  alt="Psilocybin Journey"
+                  width={400}
+                  height={300}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-xl font-display mb-2 text-cream-100">Psilocybin Journeys</h3>
               <p className="text-sm text-cream-200 mb-4 italic">Private 1:1</p>
@@ -107,7 +120,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link
               href="/energy-offerings"
-              className="inline-block px-8 py-3 bg-terracotta-500 text-cream-50 rounded-md hover:bg-terracotta-400 transition-colors font-medium shadow-md hover:shadow-lg"
+              className="inline-block px-8 py-3 bg-sage-50 text-sage-800 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
             >
               View All Offerings
             </Link>
