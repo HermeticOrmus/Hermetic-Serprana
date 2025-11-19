@@ -1,5 +1,6 @@
 import ContactForm from "@/components/ContactForm";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "Meet Kate - SERPRANA",
@@ -24,8 +25,14 @@ export default function MeetKate() {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* Image */}
             <div className="relative">
-              <div className="aspect-square bg-sage-700 rounded-lg flex items-center justify-center text-cream-300">
-                [Kate's Photo]
+              <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="/images/kate-profile.jpg"
+                  alt="Kate Edelstein - Founder of SERPRANA"
+                  width={600}
+                  height={600}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <p className="text-center mt-4 font-display text-cream-100">Owner</p>
             </div>

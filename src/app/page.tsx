@@ -50,11 +50,14 @@ export default function Home() {
                 Learn More
               </Link>
             </div>
-            <div className="relative h-96 bg-sage-700 rounded-lg shadow-lg">
-              {/* Image placeholder */}
-              <div className="absolute inset-0 flex items-center justify-center text-cream-300">
-                [Kate's Photo]
-              </div>
+            <div className="relative h-96 rounded-lg shadow-lg overflow-hidden">
+              <Image
+                src="/images/kate-profile.jpg"
+                alt="Kate Edelstein"
+                width={600}
+                height={600}
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
