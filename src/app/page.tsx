@@ -45,14 +45,14 @@ export default function Home() {
               </div>
               <Link
                 href="/meet-kate"
-                className="inline-block px-8 py-3 bg-sage-50 text-sage-800 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
+                className="inline-block px-8 py-3 bg-white text-sage-700 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
               >
                 Learn More
               </Link>
             </div>
             <div className="relative h-96 rounded-lg shadow-lg overflow-hidden">
               <Image
-                src="/images/kate-profile.jpg"
+                src="/images/kate-landing.jpg"
                 alt="Kate Edelstein"
                 width={600}
                 height={600}
@@ -104,18 +104,18 @@ export default function Home() {
               <p className="text-sm text-cream-200 mb-4 italic">Personalized Remedies</p>
             </div>
 
-            {/* Psilocybin Journeys */}
+            {/* Guided Medicine Journeys */}
             <div className="bg-sage-600 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-sage-700">
               <div className="h-48 rounded-md mb-4 overflow-hidden">
                 <Image
                   src="/images/psilocybin-journey.png"
-                  alt="Psilocybin Journey"
+                  alt="Guided Medicine Journey"
                   width={400}
                   height={300}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-display mb-2 text-cream-100">Psilocybin Journeys</h3>
+              <h3 className="text-xl font-display mb-2 text-cream-100">Guided Medicine Journeys</h3>
               <p className="text-sm text-cream-200 mb-4 italic">Private 1:1</p>
             </div>
           </div>
@@ -123,7 +123,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link
               href="/energy-offerings"
-              className="inline-block px-8 py-3 bg-sage-50 text-sage-800 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
+              className="inline-block px-8 py-3 bg-white text-sage-700 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
             >
               View All Offerings
             </Link>

@@ -31,7 +31,7 @@ const offerings = [
       "For anyone seeking natural support made specifically for their unique needs."
   },
   {
-    title: "Psilocybin Journeys",
+    title: "Guided Medicine Journeys",
     type: "Private 1:1",
     description:
       "Deep sound-and-energy ceremony. Therapeutic instruments and frequencies release stagnant energy, elevate vibration, recalibrate your system. With sacred medicine.",
@@ -46,8 +46,12 @@ export default function EnergyOfferings() {
       {/* Hero Section */}
       <section className="py-20 px-4 bg-gradient-to-b from-sage-600 to-sage-500">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="h-64 bg-sage-700 rounded-lg mb-8 flex items-center justify-center text-cream-300">
-            [Crystal Healing Image]
+          <div className="h-64 rounded-lg mb-8 overflow-hidden">
+            <img
+              src="/images/energy-offerings-hero.jpg"
+              alt="Energy Offerings"
+              className="w-full h-full object-cover"
+            />
           </div>
           <h1 className="text-5xl md:text-6xl font-display mb-6 text-cream-100">
             Energy Offerings
@@ -95,7 +99,7 @@ export default function EnergyOfferings() {
           </p>
           <a
             href="#contact"
-            className="inline-block px-8 py-3 bg-sage-50 text-sage-800 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
+            className="inline-block px-8 py-3 bg-white text-sage-700 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
           >
             Contact Me
           </a>

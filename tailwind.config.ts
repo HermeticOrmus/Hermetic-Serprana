@@ -50,6 +50,12 @@ const config: Config = {
           800: '#421812',
           900: '#210c09',
         },
+        // Gold accent for bold/emphasis text
+        gold: {
+          DEFAULT: '#C9A227',
+          light: '#D4B94A',
+          dark: '#A68820',
+        },
         // Keep clay for backwards compatibility
         clay: {
           50: '#faf6f4',

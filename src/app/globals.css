@@ -48,10 +48,16 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--accent);
 }
 
-/* Emphasis utility */
+/* Emphasis utility - gold for bolded italic text */
 em.italic {
   font-style: italic;
-  color: var(--accent);
+  color: #C9A227;
+}
+
+/* Bold text gets gold color */
+.font-bold em.italic,
+em.italic.font-bold {
+  color: #C9A227;
 }
 
 em.not-italic {
