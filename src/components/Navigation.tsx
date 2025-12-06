@@ -17,15 +17,15 @@ export default function Navigation() {
   return (
     <nav className="bg-sage-500/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-sage-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
               src="/images/logo.png"
               alt="SERPRANA"
-              width={450}
-              height={150}
-              className="h-16 w-auto"
+              width={600}
+              height={200}
+              className="h-20 w-auto"
               priority
             />
           </Link>
