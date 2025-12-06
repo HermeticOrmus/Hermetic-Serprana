@@ -99,7 +99,7 @@ export default function EnergyOfferings() {
           </p>
           <a
             href="#contact"
-            className="inline-block px-8 py-3 bg-white text-sage-900 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
+            className="inline-block px-8 py-3 bg-cream-100 text-sage-900 rounded-md hover:bg-cream-200 transition-colors font-medium shadow-md hover:shadow-lg"
           >
             Contact Me
           </a>
