@@ -110,7 +110,7 @@ export default function MeetKate() {
           </h2>
           <Link
             href="/energy-offerings"
-            className="inline-block px-8 py-3 bg-white text-sage-700 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
+            className="inline-block px-8 py-3 bg-white text-sage-900 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
           >
             Explore Energy Offerings
           </Link>

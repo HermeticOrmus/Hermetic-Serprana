@@ -23,9 +23,9 @@ export default function Navigation() {
             <Image
               src="/images/logo.png"
               alt="SERPRANA"
-              width={150}
-              height={50}
-              className="h-12 w-auto"
+              width={200}
+              height={67}
+              className="h-16 w-auto"
               priority
             />
           </Link>

@@ -45,7 +45,7 @@ export default function Home() {
               </div>
               <Link
                 href="/meet-kate"
-                className="inline-block px-8 py-3 bg-white text-sage-700 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
+                className="inline-block px-8 py-3 bg-white text-sage-900 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
               >
                 Learn More
               </Link>
@@ -123,7 +123,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link
               href="/energy-offerings"
-              className="inline-block px-8 py-3 bg-white text-sage-700 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
+              className="inline-block px-8 py-3 bg-white text-sage-900 rounded-md hover:bg-cream-100 transition-colors font-medium shadow-md hover:shadow-lg"
             >
               View All Offerings
             </Link>
