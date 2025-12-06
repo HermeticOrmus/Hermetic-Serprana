@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+@theme {
+  --color-cream-50: #ffffff;
+  --color-cream-100: #F2F3F1;
+  --color-cream-200: #e5e6e4;
+  --color-cream-300: #d8dad7;
+  --color-cream-400: #cbcdca;
+  --color-cream-500: #bec0bd;
+
+  --color-sage-500: #66756C;
+  --color-sage-600: #525e56;
+  --color-sage-700: #424d46;
+  --color-sage-800: #35403a;
+  --color-sage-900: #2c3530;
+}
+
 :root {
   /* Green sage backgrounds */
   --background: #66756C;
