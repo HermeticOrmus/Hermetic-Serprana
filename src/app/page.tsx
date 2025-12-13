@@ -9,9 +9,12 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-sage-500 to-sage-600">
         <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-20"></div>
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-display mb-6 text-cream-100">
-            SERPRANA
-          </h1>
+          {/* SERPRANA + Vine Logo */}
+          <img
+            src="/images/serprana-vine-logo.png"
+            alt="SERPRANA"
+            className="mx-auto mb-6 w-full max-w-2xl md:max-w-3xl h-auto"
+          />
           <p className="text-2xl md:text-3xl mb-4 text-cream-100 font-display">
             <em className="italic font-bold">To be a Life Force.</em>
           </p>
@@ -40,7 +43,9 @@ export default function Home() {
               </p>
               <div className="space-y-4 text-cream-200">
                 <p>
-                  As a <em className="italic font-bold">Holistic Alchemist</em>, I support and guide individuals back to the <span className="font-bold">HEART</span>. Using sound, intuition, and plant wisdom—tools I've refined over the years—I help transmute distorted emotions, clear density, and reconnect you to confidence, clarity, and embodied self-worth—aligning you with your truth, your essence, your <span className="font-bold">HEART</span>.
+                  As a <em className="italic font-bold">Holistic Alchemist</em>, I support and guide individuals back to the <span className="font-bold">HEART</span>.
+                  I am a natural harmonizer—bringing the energetic, emotional, physical, and mental bodies back into balance through sound, intuition, and plant wisdom.
+                  By transmuting distorted emotions and clearing density, I help you return to inner alignment, confidence, clarity, and embodied self-worth—aligning you with your truth, your essence, your <span className="font-bold">HEART</span>.
                 </p>
               </div>
               <Link
@@ -67,13 +72,13 @@ export default function Home() {
       <section className="py-20 px-4 bg-sage-500">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-display text-center mb-4 text-cream-100">
-            ENERGY Offerings
+            Energy Offerings
           </h2>
           <p className="text-center text-cream-200 mb-12 italic">
             Contact me BEFORE you book any services!
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {/* Sound Healing */}
             <div className="bg-sage-600 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-sage-700">
               <div className="h-48 rounded-md mb-4 overflow-hidden">
@@ -117,6 +122,21 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-display mb-2 text-cream-100">Guided Medicine Journeys</h3>
               <p className="text-sm text-cream-200 mb-4 italic">Private 1:1</p>
+            </div>
+
+            {/* Energy Clearing */}
+            <div className="bg-sage-600 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-sage-700">
+              <div className="h-48 rounded-md mb-4 overflow-hidden">
+                <Image
+                  src="/images/energy-clearing.png"
+                  alt="Energy Clearing"
+                  width={400}
+                  height={300}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-display mb-2 text-cream-100">Energy Clearing</h3>
+              <p className="text-sm text-cream-200 mb-4 italic">Online, In-person</p>
             </div>
           </div>
 

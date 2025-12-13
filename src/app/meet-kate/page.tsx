@@ -14,7 +14,7 @@ export default function MeetKate() {
       <section className="py-20 px-4 bg-gradient-to-b from-sage-600 to-sage-500">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-display mb-6 text-cream-100 italic">
-            I look forward to knowing you
+            I can't wait to meet you in the heart.
           </h1>
         </div>
       </section>
@@ -43,7 +43,7 @@ export default function MeetKate() {
 
               <div className="space-y-4 text-cream-200 leading-relaxed">
                 <p>
-                  I'm <em className="italic font-bold">Kate Edelstein</em>, founder of SERPRANA.
+                  I'm <em className="italic font-bold">Kate Edelstein</em>, founder of <em className="italic font-bold">SERPRANA</em>.
                 </p>
 
                 <p>
@@ -55,19 +55,19 @@ export default function MeetKate() {
                 </p>
 
                 <p>
-                  As a <em className="italic font-bold">Holistic Alchemist</em>, I combine sound, energy, intuition, and plant wisdom to clear distorted emotions, dissolve density, and reconnect people to clarity, confidence, and their true essence.
+                  As a <em className="italic font-bold">Holistic Alchemist</em>, I am a natural harmonizer—bringing the energetic, emotional, physical, and mental bodies back into alignment through sound, intuition, and plant wisdom. I combine these modalities to clear distorted emotions, dissolve density, restore inner alignment, and reconnect people to clarity, confidence, and their true essence.
                 </p>
 
                 <p>
-                  My relationship with Nature is shaped by my time with the Kogi and Wiwa Tribes of the Sierra Nevada and my permaculture studies in Guatemala—showing me how to partner with and deeply connect with the Earth, in the healing work I do.
+                  My relationship with Nature is shaped by my time with the Kogi and Wiwa Tribes of the Sierra Nevada and my permaculture studies in Guatemala—showing me how to partner with and deeply connect with the Earth in the healing work I do.
                 </p>
 
                 <p>
-                  I've shared Sound Medicine and plant wisdom at retreats and festivals across <em className="italic font-bold">Panama</em>, including Radio Venao, Reactor Venao, and Yoga Gathering Venao, and continue to expand into retreats <em className="italic">around the world</em>.
+                  Over the past 4 years, I've shared Sound Medicine and plant wisdom at retreats and festivals in Panama, including Radio Venao, Reactor Venao, and Yoga Gathering Venao, and continue to expand into retreats <em className="italic font-bold">around the world</em>.
                 </p>
 
                 <p>
-                  <em className="italic font-bold">My vision:</em> to help elevate consciousness and guide others back to the <span className="font-bold">HEART</span>—so you remember who you are, embody your gifts, and support the creation of a more aligned, connected New Earth.
+                  <em className="italic font-bold">My vision:</em> to elevate consciousness and harmonize the collective field back to the <span className="font-bold">HEART</span>—so you remember who you are, embody your gifts, and anchor a more aligned, connected New Earth.
                 </p>
 
                 <p>

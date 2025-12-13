@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Navigation() {
@@ -17,17 +16,12 @@ export default function Navigation() {
   return (
     <nav className="bg-sage-500/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-sage-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-24">
-          {/* Logo */}
+        <div className="flex justify-between items-center h-16">
+          {/* Logo Text */}
           <Link href="/" className="flex-shrink-0">
-            <Image
-              src="/images/logo.png"
-              alt="SERPRANA"
-              width={600}
-              height={200}
-              className="h-20 w-auto"
-              priority
-            />
+            <span className="text-2xl md:text-3xl font-display text-cream-100 tracking-wider">
+              SERPRANA
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -29,7 +29,7 @@ export default function BookOnline() {
             </h2>
             <p className="text-cream-100 leading-relaxed">
               Before booking any services, I'd love to connect with you to ensure we find the
-              <em className="italic">perfect offering for your unique needs and intentions</em>. Please fill out the form
+              <em className="italic"> perfect offering for your unique needs and intentions</em>. Please fill out the form
               below or email me directly.
             </p>
           </div>

@@ -15,12 +15,20 @@ const offerings = [
       "For anyone feeling overwhelmed, blocked, stressed, or disconnected—craving peace, clarity, and a full-body reset."
   },
   {
-    title: "Energy Clearing Online",
-    type: "Virtual Sessions Available",
+    title: "Virtual Support Session",
+    type: "Online",
     description:
-      "Remote energy clearing sessions that work with your energetic field to release blockages, transmute distorted emotions, and restore balance—no matter where you are in the world.",
+      "A focused virtual session tailored to your needs. This time can be used for intuitive guidance, a consultation, an energy clearing, or general support.",
     forWhom:
-      "For anyone seeking energetic support and healing from the comfort of their own space."
+      "For anyone wanting personalized support or clarity without needing to commit to a specific type of session."
+  },
+  {
+    title: "Energy Clearing",
+    type: "Online, In-person",
+    description:
+      "Energy clearing sessions that work with your energetic field to release blockages, transmute distorted emotions, and restore balance.",
+    forWhom:
+      "For anyone seeking energetic support and healing, whether in person or from the comfort of their own space."
   },
   {
     title: "Herbal Consultation",
