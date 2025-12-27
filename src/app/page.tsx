@@ -15,17 +15,17 @@ export default function Home() {
             alt="SERPRANA"
             className="mx-auto mb-6 w-full max-w-2xl md:max-w-3xl h-auto"
           />
-          <p className="text-2xl md:text-3xl mb-4 text-cream-100 font-display">
-            <em className="italic font-bold">To be a Life Force.</em>
+          <p className="text-xl md:text-2xl mb-6 text-cream-200 font-display tracking-wide">
+            <em className="italic">SER</em> — to be. <em className="italic">PRANA</em> — life force.
           </p>
-          <p className="text-2xl md:text-3xl mb-8 text-cream-100 font-display">
-            To be in the flow of Life Force.
+          <p className="text-lg md:text-xl max-w-3xl mx-auto text-cream-100 leading-relaxed mb-4">
+            <span className="font-bold">SERPRANA</span> is the harmonization of life force —
           </p>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-cream-200 leading-relaxed">
-            Density dissolves into light through <em className="italic font-bold">sound, vibration, alchemy</em>, and <em className="italic font-bold">Earth wisdom</em>.
+            where density dissolves into light through <em className="italic font-bold">sound</em>, <em className="italic font-bold">vibration</em>, <em className="italic font-bold">materia medica</em>, and <em className="italic font-bold">energetic alchemy</em>.
           </p>
-          <p className="text-lg md:text-xl max-w-3xl mx-auto text-cream-200 leading-relaxed mt-4">
-            The alchemical journey back to the <em className="italic font-bold">HEART</em>.
+          <p className="text-lg md:text-xl max-w-3xl mx-auto text-cream-200 leading-relaxed mt-6">
+            An alchemical journey back to the <em className="italic font-bold">HEART</em>.
           </p>
         </div>
       </section>
