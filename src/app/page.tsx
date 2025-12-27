@@ -13,7 +13,7 @@ export default function Home() {
           <img
             src="/images/serprana-vine-logo.png"
             alt="SERPRANA"
-            className="mx-auto mb-6 w-full max-w-2xl md:max-w-3xl h-auto"
+            className="mx-auto mb-6 w-full max-w-4xl md:max-w-5xl h-auto"
           />
           <p className="text-xl md:text-2xl mb-6 text-cream-200 font-display tracking-wide">
             <em className="italic">SER</em> — to be. <em className="italic">PRANA</em> — life force.
@@ -33,7 +33,7 @@ export default function Home() {
       {/* About Kate Section */}
       <section className="py-20 px-4 bg-sage-600">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl font-display text-cream-100">
                 <em className="italic font-bold">Hi My Loves!</em>

@@ -1,11 +1,52 @@
+"use client";
+
+import { useState } from "react";
 import ContactForm from "@/components/ContactForm";
 
-export const metadata = {
-  title: "Energy Offerings - SERPRANA",
-  description: "Explore our transformative energy healing packages including virtual sessions, in-person immersions, and sacred medicine journeys.",
-};
+const offerings = [
+  {
+    title: "Sound Healing",
+    type: "1:1, Group, Retreat",
+    description:
+      "Vibrational healing with crystal bowls and sacred instruments. Releases tension, clears emotions, rebalances energy.",
+    forWhom:
+      "For anyone feeling overwhelmed, blocked, stressed, or disconnected—craving peace, clarity, and a full-body reset."
+  },
+  {
+    title: "Virtual Support Session",
+    type: "Online",
+    description:
+      "A focused virtual session tailored to your needs. This time can be used for intuitive guidance, a consultation, an energy clearing, or general support.",
+    forWhom:
+      "For anyone wanting personalized support or clarity without needing to commit to a specific type of session."
+  },
+  {
+    title: "Energy Clearing",
+    type: "Online, In-person",
+    description:
+      "Energy clearing sessions that work with your energetic field to release blockages, transmute distorted emotions, and restore balance.",
+    forWhom:
+      "For anyone seeking energetic support and healing, whether in person or from the comfort of their own space."
+  },
+  {
+    title: "Herbal Consultation",
+    type: "Personalized Remedies",
+    description:
+      "Focused assessment of symptoms, health concerns, and goals. Personalized herbal remedies—tinctures, teas, plant preparations.",
+    forWhom:
+      "For anyone seeking natural support made specifically for their unique needs."
+  },
+  {
+    title: "Guided Medicine Journeys",
+    type: "Private 1:1",
+    description:
+      "Deep sound-and-energy ceremony. Therapeutic instruments and frequencies release stagnant energy, elevate vibration, recalibrate your system. With sacred medicine.",
+    forWhom:
+      "For those seeking profound energetic release, emotional healing, spiritual activation, or a powerful shift into higher alignment."
+  },
+];
 
-const virtualOfferings = [
+const virtualPackages = [
   {
     title: "Virtual Alignment",
     price: "$360",
@@ -29,7 +70,7 @@ const virtualOfferings = [
   },
 ];
 
-const inPersonOfferings = [
+const inPersonPackages = [
   {
     title: "Harmonic Reset",
     price: "$555",
@@ -90,6 +131,8 @@ const addOns = [
 ];
 
 export default function EnergyOfferings() {
+  const [packagesOpen, setPackagesOpen] = useState(false);
+
   return (
     <div className="bg-sage-500">
       {/* Hero Section */}
@@ -105,132 +148,178 @@ export default function EnergyOfferings() {
           <h1 className="text-5xl md:text-6xl font-display mb-6 text-cream-100">
             Energy Offerings
           </h1>
-          <p className="text-xl text-cream-200 max-w-2xl mx-auto leading-relaxed">
-            Virtual sessions are held with the same presence, intuition, and energetic precision as in-person work.
-          </p>
         </div>
       </section>
 
-      {/* Virtual Offerings */}
+      {/* Offerings */}
       <section className="py-16 px-4">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-display text-center mb-12 text-cream-100">
-            Virtual Offerings
-          </h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            {virtualOfferings.map((offering, index) => (
-              <div
-                key={index}
-                className="bg-sage-600 rounded-lg p-8 border border-sage-700"
-              >
-                <div className="flex justify-between items-start mb-4">
-                  <div>
-                    <h3 className="text-2xl md:text-3xl font-display text-cream-100">
-                      {offering.title}
-                    </h3>
-                    <p className="text-cream-200 italic">{offering.subtitle}</p>
-                  </div>
-                  <span className="text-2xl font-display text-cream-100">{offering.price}</span>
+        <div className="max-w-5xl mx-auto space-y-16">
+          {offerings.map((offering, index) => (
+            <div
+              key={index}
+              className="bg-sage-600 rounded-lg p-8 md:p-12 border border-sage-700"
+            >
+              <h2 className="text-3xl md:text-4xl font-display text-cream-100 mb-2">
+                {offering.title}
+              </h2>
+              <p className="text-cream-200 font-medium mb-6 italic">{offering.type}</p>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-cream-100 mb-2 italic">What it is:</h3>
+                  <p className="text-cream-200 leading-relaxed">{offering.description}</p>
                 </div>
-                <div className="mt-6">
-                  <h4 className="font-semibold text-cream-100 mb-3 italic">Includes:</h4>
-                  <ul className="space-y-2">
-                    {offering.includes.map((item, i) => (
-                      <li key={i} className="text-cream-200 flex items-start">
-                        <span className="text-cream-100 mr-2">•</span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
+
+                <div>
+                  <h3 className="font-semibold text-cream-100 mb-2 italic">Who it&apos;s for:</h3>
+                  <p className="text-cream-200 leading-relaxed">{offering.forWhom}</p>
                 </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* In-Person Offerings */}
+      {/* Packages Toggle */}
       <section className="py-16 px-4 bg-sage-600">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-display text-center mb-12 text-cream-100">
-            In-Person Offerings
-          </h2>
-          <div className="space-y-8">
-            {inPersonOfferings.map((offering, index) => (
-              <div
-                key={index}
-                className="bg-sage-700 rounded-lg p-8 md:p-12 border border-sage-800"
+          <div className="text-center mb-8">
+            <button
+              onClick={() => setPackagesOpen(!packagesOpen)}
+              className="inline-flex items-center gap-3 px-8 py-4 bg-cream-100 text-sage-900 rounded-md hover:bg-cream-200 transition-colors font-medium shadow-md hover:shadow-lg text-xl"
+            >
+              <span>Packages</span>
+              <svg
+                className={`w-5 h-5 transition-transform ${packagesOpen ? "rotate-180" : ""}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
               >
-                <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-6">
-                  <div>
-                    <h3 className="text-3xl md:text-4xl font-display text-cream-100">
-                      {offering.title}
-                    </h3>
-                    <p className="text-cream-200 italic">{offering.subtitle}</p>
-                  </div>
-                  <span className="text-3xl font-display text-cream-100 mt-2 md:mt-0">{offering.price}</span>
-                </div>
-
-                <div className="space-y-6">
-                  <div>
-                    <h4 className="font-semibold text-cream-100 mb-3 italic">Includes:</h4>
-                    <ul className="space-y-2">
-                      {offering.includes.map((item, i) => (
-                        <li key={i} className="text-cream-200 flex items-start">
-                          <span className="text-cream-100 mr-2">•</span>
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-cream-100 mb-2 italic">Perfect for:</h4>
-                    <p className="text-cream-200 leading-relaxed">{offering.perfectFor}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
           </div>
-        </div>
-      </section>
 
-      {/* Add-Ons */}
-      <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-display text-center mb-12 text-cream-100">
-            Add-Ons
-          </h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            {addOns.map((addon, index) => (
-              <div
-                key={index}
-                className="bg-sage-600 rounded-lg p-6 border border-sage-700 text-center"
-              >
-                <h3 className="text-xl font-display text-cream-100 mb-2">
-                  {addon.title}
+          {packagesOpen && (
+            <div className="space-y-12 animate-in fade-in duration-300">
+              {/* Virtual Packages */}
+              <div>
+                <h3 className="text-3xl md:text-4xl font-display text-center mb-8 text-cream-100">
+                  Virtual Packages
                 </h3>
-                {addon.duration && (
-                  <p className="text-cream-200 text-sm italic mb-2">{addon.duration}</p>
-                )}
-                <p className="text-2xl font-display text-cream-100 mb-1">{addon.price}</p>
-                <p className="text-cream-300 text-sm">
-                  <span className="line-through">normally {addon.normalPrice}</span>
-                </p>
+                <div className="grid md:grid-cols-2 gap-8">
+                  {virtualPackages.map((pkg, index) => (
+                    <div
+                      key={index}
+                      className="bg-sage-700 rounded-lg p-8 border border-sage-800"
+                    >
+                      <div className="flex justify-between items-start mb-4">
+                        <div>
+                          <h4 className="text-2xl md:text-3xl font-display text-cream-100">
+                            {pkg.title}
+                          </h4>
+                          <p className="text-cream-200 italic">{pkg.subtitle}</p>
+                        </div>
+                        <span className="text-2xl font-display text-cream-100">{pkg.price}</span>
+                      </div>
+                      <div className="mt-6">
+                        <h5 className="font-semibold text-cream-100 mb-3 italic">Includes:</h5>
+                        <ul className="space-y-2">
+                          {pkg.includes.map((item, i) => (
+                            <li key={i} className="text-cream-200 flex items-start">
+                              <span className="text-cream-100 mr-2">•</span>
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
-            ))}
-          </div>
+
+              {/* In-Person Packages */}
+              <div>
+                <h3 className="text-3xl md:text-4xl font-display text-center mb-8 text-cream-100">
+                  In-Person Packages
+                </h3>
+                <div className="space-y-8">
+                  {inPersonPackages.map((pkg, index) => (
+                    <div
+                      key={index}
+                      className="bg-sage-700 rounded-lg p-8 md:p-12 border border-sage-800"
+                    >
+                      <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-6">
+                        <div>
+                          <h4 className="text-3xl md:text-4xl font-display text-cream-100">
+                            {pkg.title}
+                          </h4>
+                          <p className="text-cream-200 italic">{pkg.subtitle}</p>
+                        </div>
+                        <span className="text-3xl font-display text-cream-100 mt-2 md:mt-0">{pkg.price}</span>
+                      </div>
+
+                      <div className="space-y-6">
+                        <div>
+                          <h5 className="font-semibold text-cream-100 mb-3 italic">Includes:</h5>
+                          <ul className="space-y-2">
+                            {pkg.includes.map((item, i) => (
+                              <li key={i} className="text-cream-200 flex items-start">
+                                <span className="text-cream-100 mr-2">•</span>
+                                {item}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        <div>
+                          <h5 className="font-semibold text-cream-100 mb-2 italic">Perfect for:</h5>
+                          <p className="text-cream-200 leading-relaxed">{pkg.perfectFor}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Add-Ons */}
+              <div>
+                <h3 className="text-3xl md:text-4xl font-display text-center mb-8 text-cream-100">
+                  Add-Ons
+                </h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  {addOns.map((addon, index) => (
+                    <div
+                      key={index}
+                      className="bg-sage-700 rounded-lg p-6 border border-sage-800 text-center"
+                    >
+                      <h4 className="text-xl font-display text-cream-100 mb-2">
+                        {addon.title}
+                      </h4>
+                      {addon.duration && (
+                        <p className="text-cream-200 text-sm italic mb-2">{addon.duration}</p>
+                      )}
+                      <p className="text-2xl font-display text-cream-100 mb-1">{addon.price}</p>
+                      <p className="text-cream-300 text-sm">
+                        <span className="line-through">normally {addon.normalPrice}</span>
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
       {/* Retreats CTA */}
-      <section className="py-16 px-4 bg-sage-600">
+      <section className="py-16 px-4 bg-sage-500">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-display mb-6 text-cream-100">
             Retreats
           </h2>
           <p className="text-xl text-cream-200 mb-8 leading-relaxed max-w-2xl mx-auto">
-            I'd love to be a part of your retreat! Please contact me to receive my <em className="italic font-bold">Retreat Packages</em>.
+            I&apos;d love to be a part of your retreat! Please contact me to receive my <em className="italic font-bold">Retreat Packages</em>.
           </p>
           <a
             href="#contact"
@@ -242,7 +331,7 @@ export default function EnergyOfferings() {
       </section>
 
       {/* Contact CTA */}
-      <section className="py-16 px-4 bg-sage-500">
+      <section className="py-16 px-4 bg-sage-600">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-display mb-6 text-cream-100">
             Have Questions?
@@ -260,7 +349,7 @@ export default function EnergyOfferings() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 bg-sage-600">
+      <section id="contact" className="py-20 px-4 bg-sage-500">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-display text-center mb-12 text-cream-100">
             Get In Touch
