@@ -31,7 +31,7 @@ export default function MeetKate() {
                   alt="Kate Edelstein - Founder of SERPRANA"
                   width={600}
                   height={600}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               <p className="text-center mt-4 font-display text-cream-100">Owner</p>
@@ -70,9 +70,6 @@ export default function MeetKate() {
                   <em className="italic font-bold">My vision:</em> to elevate consciousness and harmonize the collective field back to the <span className="font-bold">HEART</span>—so you remember who you are, embody your gifts, and anchor a more aligned, connected New Earth.
                 </p>
 
-                <p>
-                  <em className="italic font-bold">This is the work:</em> returning to the <span className="font-bold">HEART</span>, expanding awareness, and becoming the medicine you came here to be.
-                </p>
               </div>
             </div>
           </div>

@@ -7,6 +7,7 @@ const offerings = [
   {
     title: "Sound Healing",
     type: "1:1, Group, Retreat",
+    price: "Starting at $180",
     description:
       "Vibrational healing with crystal bowls and sacred instruments. Releases tension, clears emotions, rebalances energy.",
     forWhom:
@@ -23,6 +24,7 @@ const offerings = [
   {
     title: "Energy Clearing",
     type: "Online, In-person",
+    price: "$150",
     description:
       "Energy clearing sessions that work with your energetic field to release blockages, transmute distorted emotions, and restore balance.",
     forWhom:
@@ -39,6 +41,7 @@ const offerings = [
   {
     title: "Guided Medicine Journeys",
     type: "Private 1:1",
+    price: "$1,111",
     description:
       "Deep sound-and-energy ceremony. Therapeutic instruments and frequencies release stagnant energy, elevate vibration, recalibrate your system. With sacred medicine.",
     forWhom:
@@ -159,9 +162,14 @@ export default function EnergyOfferings() {
               key={index}
               className="bg-sage-600 rounded-lg p-8 md:p-12 border border-sage-700"
             >
-              <h2 className="text-3xl md:text-4xl font-display text-cream-100 mb-2">
-                {offering.title}
-              </h2>
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
+                <h2 className="text-3xl md:text-4xl font-display text-cream-100">
+                  {offering.title}
+                </h2>
+                {offering.price && (
+                  <span className="text-2xl font-display text-cream-100 mt-2 md:mt-0">{offering.price}</span>
+                )}
+              </div>
               <p className="text-cream-200 font-medium mb-6 italic">{offering.type}</p>
 
               <div className="space-y-4">
