@@ -9,11 +9,11 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-sage-500 to-sage-600">
         <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-20"></div>
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-          {/* SERPRANA + Vine Logo */}
+          {/* SERPRANA Logo */}
           <img
-            src="/images/serprana-vine-logo.png"
+            src="/images/serprana-logo.png"
             alt="SERPRANA"
-            className="mx-auto mb-6 w-full max-w-4xl md:max-w-5xl h-auto"
+            className="mx-auto mb-6 w-full max-w-md md:max-w-lg h-auto"
           />
           <p className="text-xl md:text-2xl mb-6 text-cream-200 font-display tracking-wide">
             <em className="italic">SER</em> — to be. <em className="italic">PRANA</em> — life force.
