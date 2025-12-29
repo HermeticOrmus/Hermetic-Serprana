@@ -7,7 +7,7 @@ const offerings = [
   {
     title: "Sound Healing",
     type: "1:1, Group, Retreat",
-    price: "Starting at $180",
+    price: "$180–450",
     description:
       "Vibrational healing with crystal bowls and sacred instruments. Releases tension, clears emotions, rebalances energy.",
     forWhom:
@@ -40,7 +40,7 @@ const offerings = [
   },
   {
     title: "Guided Medicine Journeys",
-    type: "Private 1:1",
+    type: "Private 1:1 · 4-5 hours",
     price: "$1,111",
     description:
       "Deep sound-and-energy ceremony. Therapeutic instruments and frequencies release stagnant energy, elevate vibration, recalibrate your system. With sacred medicine.",
