@@ -31,7 +31,7 @@ export default function MeetKate() {
                   alt="Kate Edelstein - Founder of SERPRANA"
                   width={600}
                   height={600}
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <p className="text-center mt-4 font-display text-cream-100">Owner</p>
