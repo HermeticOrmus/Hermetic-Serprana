@@ -45,7 +45,7 @@ export default function Home() {
                 <p>
                   As a <em className="italic font-bold">Holistic Alchemist</em>, I support and guide individuals back to the <span className="font-bold">HEART</span>.
                   I am a natural harmonizer—bringing the energetic, emotional, physical, and mental bodies back into balance through sound, intuition, and plant wisdom.
-                  By transmuting distorted emotions and clearing density, I help you return to inner alignment, confidence, clarity, and embodied self-worth—aligning you with your truth, your essence, your <span className="font-bold">HEART</span>.
+                  By transmuting distorted emotions and clearing density, I help you feel lighter and return to inner alignment, confidence, clarity, and embodied self-worth—aligning you with your truth, your essence, your <span className="font-bold">HEART</span>.
                 </p>
               </div>
               <Link

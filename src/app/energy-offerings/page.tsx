@@ -7,7 +7,6 @@ const offerings = [
   {
     title: "Sound Healing",
     type: "1:1, Group, Retreat",
-    price: "$180–450",
     description:
       "Vibrational healing with crystal bowls and sacred instruments. Releases tension, clears emotions, rebalances energy.",
     forWhom:
@@ -24,7 +23,6 @@ const offerings = [
   {
     title: "Energy Clearing",
     type: "Online, In-person",
-    price: "$150",
     description:
       "Energy clearing sessions that work with your energetic field to release blockages, transmute distorted emotions, and restore balance.",
     forWhom:
@@ -41,7 +39,6 @@ const offerings = [
   {
     title: "Guided Medicine Journeys",
     type: "Private 1:1 · 4-5 hours",
-    price: "$1,111",
     description:
       "Deep sound-and-energy ceremony. Therapeutic instruments and frequencies release stagnant energy, elevate vibration, recalibrate your system. With sacred medicine.",
     forWhom:
@@ -52,7 +49,6 @@ const offerings = [
 const virtualPackages = [
   {
     title: "Virtual Alignment",
-    price: "$360",
     subtitle: "3-Session Container",
     includes: [
       "3 focused virtual support sessions",
@@ -62,7 +58,6 @@ const virtualPackages = [
   },
   {
     title: "Virtual Frequency",
-    price: "$1,111",
     subtitle: "6-Week Container",
     includes: [
       "6 weekly focused virtual support sessions",
@@ -76,7 +71,6 @@ const virtualPackages = [
 const inPersonPackages = [
   {
     title: "Harmonic Reset",
-    price: "$555",
     subtitle: "3 Sessions",
     includes: [
       "2 Sound Healings",
@@ -89,7 +83,6 @@ const inPersonPackages = [
   },
   {
     title: "Frequency Upgrade",
-    price: "$1,700",
     subtitle: "6-Week Immersion",
     includes: [
       "Daily energetic clearing",
@@ -102,7 +95,6 @@ const inPersonPackages = [
   },
   {
     title: "Alchemical Recalibration",
-    price: "$3,000",
     subtitle: "3-Month Transformation",
     includes: [
       "Daily energetic clearing + harmonization",
@@ -118,18 +110,12 @@ const addOns = [
   {
     title: "Psilocybin Journey",
     duration: "4-5 hours",
-    price: "+$777",
-    normalPrice: "$1,111",
   },
   {
     title: "Additional Sound Sessions",
-    price: "+$144 each",
-    normalPrice: "$180",
   },
   {
     title: "Monthly Herbal Tincture Refills",
-    price: "$20 per tincture",
-    normalPrice: "$25",
   },
 ];
 
@@ -162,14 +148,9 @@ export default function EnergyOfferings() {
               key={index}
               className="bg-sage-600 rounded-lg p-8 md:p-12 border border-sage-700"
             >
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-                <h2 className="text-3xl md:text-4xl font-display text-cream-100">
-                  {offering.title}
-                </h2>
-                {offering.price && (
-                  <span className="text-2xl font-display text-cream-100 mt-2 md:mt-0">{offering.price}</span>
-                )}
-              </div>
+              <h2 className="text-3xl md:text-4xl font-display text-cream-100 mb-2">
+                {offering.title}
+              </h2>
               <p className="text-cream-200 font-medium mb-6 italic">{offering.type}</p>
 
               <div className="space-y-4">
@@ -221,14 +202,11 @@ export default function EnergyOfferings() {
                       key={index}
                       className="bg-sage-700 rounded-lg p-8 border border-sage-800"
                     >
-                      <div className="flex justify-between items-start mb-4">
-                        <div>
-                          <h4 className="text-2xl md:text-3xl font-display text-cream-100">
-                            {pkg.title}
-                          </h4>
-                          <p className="text-cream-200 italic">{pkg.subtitle}</p>
-                        </div>
-                        <span className="text-2xl font-display text-cream-100">{pkg.price}</span>
+                      <div className="mb-4">
+                        <h4 className="text-2xl md:text-3xl font-display text-cream-100">
+                          {pkg.title}
+                        </h4>
+                        <p className="text-cream-200 italic">{pkg.subtitle}</p>
                       </div>
                       <div className="mt-6">
                         <h5 className="font-semibold text-cream-100 mb-3 italic">Includes:</h5>
@@ -257,14 +235,11 @@ export default function EnergyOfferings() {
                       key={index}
                       className="bg-sage-700 rounded-lg p-8 md:p-12 border border-sage-800"
                     >
-                      <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-6">
-                        <div>
-                          <h4 className="text-3xl md:text-4xl font-display text-cream-100">
-                            {pkg.title}
-                          </h4>
-                          <p className="text-cream-200 italic">{pkg.subtitle}</p>
-                        </div>
-                        <span className="text-3xl font-display text-cream-100 mt-2 md:mt-0">{pkg.price}</span>
+                      <div className="mb-6">
+                        <h4 className="text-3xl md:text-4xl font-display text-cream-100">
+                          {pkg.title}
+                        </h4>
+                        <p className="text-cream-200 italic">{pkg.subtitle}</p>
                       </div>
 
                       <div className="space-y-6">
@@ -305,12 +280,8 @@ export default function EnergyOfferings() {
                         {addon.title}
                       </h4>
                       {addon.duration && (
-                        <p className="text-cream-200 text-sm italic mb-2">{addon.duration}</p>
+                        <p className="text-cream-200 text-sm italic">{addon.duration}</p>
                       )}
-                      <p className="text-2xl font-display text-cream-100 mb-1">{addon.price}</p>
-                      <p className="text-cream-300 text-sm">
-                        <span className="line-through">normally {addon.normalPrice}</span>
-                      </p>
                     </div>
                   ))}
                 </div>
