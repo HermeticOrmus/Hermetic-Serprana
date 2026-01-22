@@ -43,9 +43,7 @@ export default function Home() {
               </p>
               <div className="space-y-4 text-cream-200">
                 <p>
-                  As a <em className="italic font-bold">Holistic Alchemist</em>, I support and guide individuals back to the <span className="font-bold">HEART</span>.
-                  I am a natural harmonizer—bringing the energetic, emotional, physical, and mental bodies back into balance through sound, intuition, and plant wisdom.
-                  By transmuting distorted emotions and clearing density, I help you feel lighter and return to inner alignment, confidence, clarity, and embodied self-worth—aligning you with your truth, your essence, your <span className="font-bold">HEART</span>.
+                  As a <em className="italic font-bold">Holistic Alchemist</em>, I support and guide individuals back to the heart. I am a natural harmonizer—bringing the energetic, emotional, physical, and mental bodies back into balance through vibrational medicine: sound, intuition, and plant wisdom. By transmuting distorted emotions and clearing density, I help you feel lighter and return to inner alignment.
                 </p>
               </div>
               <Link

@@ -7,42 +7,57 @@ const offerings = [
   {
     title: "Sound Healing",
     type: "1:1, Group, Retreat",
-    description:
-      "Vibrational healing with crystal bowls and sacred instruments. Releases tension, clears emotions, rebalances energy.",
-    forWhom:
-      "For anyone feeling overwhelmed, blocked, stressed, or disconnected—craving peace, clarity, and a full-body reset."
+    description: [
+      "A powerful vibrational session that works directly with the nervous system, energy body, and cellular field to restore flow and coherence.",
+      "Through crystal bowls and intuitive sound, vibration moves stagnant energy held in the body and field, supporting regulation, circulation, and recalibration. Because the body is largely water, sound travels beyond the mind and into the physical and energetic layers.",
+      "Includes a light Vibrational Alchemy clearing to support energetic flow and integration.",
+    ],
+    ideal: "Ideal for grounding, maintenance, stress release, and returning to balance.",
   },
   {
-    title: "Virtual Support Session",
-    type: "Online",
-    description:
-      "A focused virtual session tailored to your needs. This time can be used for intuitive guidance, a consultation, an energy clearing, or general support.",
-    forWhom:
-      "For anyone wanting personalized support or clarity without needing to commit to a specific type of session."
-  },
-  {
-    title: "Energy Clearing",
-    type: "Online, In-person",
-    description:
-      "Energy clearing sessions that work with your energetic field to release blockages, transmute distorted emotions, and restore balance.",
-    forWhom:
-      "For anyone seeking energetic support and healing, whether in person or from the comfort of their own space."
-  },
-  {
-    title: "Herbal Consultation",
-    type: "Personalized Remedies",
-    description:
-      "Focused assessment of symptoms, health concerns, and goals. Personalized herbal remedies—tinctures, teas, plant preparations.",
-    forWhom:
-      "For anyone seeking natural support made specifically for their unique needs."
+    title: "Vibrational Alchemy Healing",
+    type: "1:1 · 2 hours",
+    description: [
+      "A deep, transformative energetic clearing that removes energetic density so your system feels lighter, clearer, and more elevated.",
+      "Using sound, tuning forks, Alchemy energies, and my Alchemy Energy Clearing method, this session clears energetic blocks and distorted emotional charge that can influence how you feel, think, and respond. Rather than working with stories or analysis, the clearing happens directly at the energetic level—allowing your natural frequency to rise and your system to return to coherence.",
+    ],
+    ideal: "Ideal when your energy feels heavy, blocked, or out of alignment and you're ready to clear what's weighing it down.",
   },
   {
     title: "Guided Medicine Journeys",
     type: "Private 1:1 · 4-5 hours",
-    description:
-      "Deep sound-and-energy ceremony. Therapeutic instruments and frequencies release stagnant energy, elevate vibration, recalibrate your system. With sacred medicine.",
-    forWhom:
-      "For those seeking profound energetic release, emotional healing, spiritual activation, or a powerful shift into higher alignment."
+    description: [
+      "Vibrational Alchemy Medicine Journey is a profound ceremonial experience for deep energetic clearing, insight, and realignment.",
+      "This journey includes intention setting, energetic preparation, sound and vibrational medicine, and Earth Medicine 🍄, held in a grounded, intentional container. The work unfolds intuitively and may include access to the Akashic field, ancestral layers, or subconscious energetic imprints ready to be cleared.",
+      "Includes a follow-up integration session to anchor insights and support embodiment.",
+    ],
+    ideal: "Ideal for those seeking clarity, energetic liberation, and meaningful internal shifts.",
+  },
+  {
+    title: "Energy Clearing",
+    type: "Online, In-person",
+    description: [
+      "A focused energetic clearing designed to remove energetic density, distorted emotional charge, and blocks from the body and field so your system feels lighter and more aligned. This session works directly at the energetic level using my Alchemy Energy Clearing method, guided intuitively to clear what is present without processing stories or analysis. As density is removed, your natural frequency rises and energetic flow is restored.",
+    ],
+    ideal: "Ideal when your energy feels heavy, blocked, or out of coherence and you want a direct, efficient clearing.",
+  },
+  {
+    title: "Herbal Consultation",
+    type: "Personalized Remedies",
+    description: [
+      "A personalized wellness consultation designed to support your health and well-being.",
+      "You'll complete an intake questionnaire prior to the session. During our time together, we'll review your responses and discuss your physical, emotional, and energetic landscape. Based on this, I'll recommend custom herbal tinctures or remedies, and may also suggest lifestyle or dietary adjustments or other supportive modalities for overall wellness.",
+      "Custom herbal formulas are created separately and priced independently.",
+    ],
+    ideal: "",
+  },
+  {
+    title: "Virtual Support Session",
+    type: "Online",
+    description: [
+      "A focused virtual session tailored to your needs. This time can be used for intuitive guidance, an energy clearing, integration, or general support.",
+    ],
+    ideal: "For anyone wanting personalized support or clarity without needing to commit to a specific type of session.",
   },
 ];
 
@@ -75,7 +90,7 @@ const inPersonPackages = [
     includes: [
       "2 Sound Healings",
       "2 Energy Clearings",
-      "1 Coaching Session with energetic clearing",
+      "1 Intuitive Guidance session with energetic clearing",
       "25% off a Custom Herbal Formula",
       "Access to my intuition + energetic guidance during sessions",
     ],
@@ -86,7 +101,7 @@ const inPersonPackages = [
     subtitle: "6-Week Immersion",
     includes: [
       "Daily energetic clearing",
-      "6 weekly sessions: 3 sound healings + 3 coaching/energetic guidance sessions",
+      "6 weekly sessions: 3 sound healings + 3 intuitive guidance sessions",
       "1 custom herbal tincture based on your needs",
       "Unlimited Telegram messaging with access to my intuition + energetic guidance throughout the entire 6-week container",
       "Personalized integration resources to support your continued alignment (guided meditations, somatic tools, rituals, or practices — unique to each client)",
@@ -98,7 +113,7 @@ const inPersonPackages = [
     subtitle: "3-Month Transformation",
     includes: [
       "Daily energetic clearing + harmonization",
-      "12 sessions over 3 months: 5 deep sound journeys + 6 coaching/intuitive guidance sessions with energetic clearing + 1 full herbal consultation + custom tinctures based on your needs",
+      "12 sessions over 3 months: 5 deep sound journeys + 6 intuitive guidance sessions with energetic clearing + 1 full herbal consultation + custom tinctures based on your needs",
       "Unlimited Telegram messaging with access to my intuition + energetic guidance throughout the entire 3-month container",
       "Personalized integration resources to support your continued alignment (guided meditations, somatic tools, rituals, practices, or energetic anchors — unique to each client)",
     ],
@@ -154,15 +169,15 @@ export default function EnergyOfferings() {
               <p className="text-cream-200 font-medium mb-6 italic">{offering.type}</p>
 
               <div className="space-y-4">
-                <div>
-                  <h3 className="font-semibold text-cream-100 mb-2 italic">What it is:</h3>
-                  <p className="text-cream-200 leading-relaxed">{offering.description}</p>
+                <div className="space-y-3">
+                  {offering.description.map((paragraph, i) => (
+                    <p key={i} className="text-cream-200 leading-relaxed">{paragraph}</p>
+                  ))}
                 </div>
 
-                <div>
-                  <h3 className="font-semibold text-cream-100 mb-2 italic">Who it&apos;s for:</h3>
-                  <p className="text-cream-200 leading-relaxed">{offering.forWhom}</p>
-                </div>
+                {offering.ideal && (
+                  <p className="text-cream-100 leading-relaxed italic mt-4">{offering.ideal}</p>
+                )}
               </div>
             </div>
           ))}
